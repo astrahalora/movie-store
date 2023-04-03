@@ -1,0 +1,21 @@
+.movies {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .movie {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 250px;
+        height: 460px;
+        padding: 1em;
+        
+        img {
+            height: 75%;
+            width: 100%;
+        }
+    }
+}
+
