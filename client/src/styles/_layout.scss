@@ -1,0 +1,16 @@
+html, body {
+    background-color: $background-color;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $black;
+    padding: 0.5em 2em;
+
+    img {
+        width: 80px;
+    }
+}
