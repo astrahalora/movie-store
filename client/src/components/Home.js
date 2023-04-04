@@ -14,7 +14,6 @@ export default function Home() {
       const data = await response.json();
       setLoading(false);
       setMovies(data);
-      console.log(data)
     } catch (error) {
       if(error.name === "AbortError") {
         console.log('Fetch aborted');
