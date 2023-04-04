@@ -3,9 +3,10 @@ import Movie from "./Movie";
 import MovieDetails from "./MovieDetails";
 
 export default function Movies({ movies }) {
-  const [moviesToDisplay, setMoviesToDisplay] = useState(movies);
+  let [moviesToDisplay, setMoviesToDisplay] = useState(movies);
   const [searchPhraze, setSearchPhraze] = useState("");
   const [renderOne, setRenderOne] = useState(null);
+  let [copyMovies, setCopyMovies] = useState(movies);
   const genres = [...new Set(movies.map((movie) => movie.Genre).join(",").replace(/\s/g,'').split(","))];
 
   const sorter = (e) => {
@@ -26,18 +27,19 @@ export default function Movies({ movies }) {
   };
 
   const search = (e) => {
-    const filterByPhraze = movies.filter(
+    moviesToDisplay=copyMovies;
+    const filterByPhraze = moviesToDisplay.filter(
       (movie) => movie.Title.toLowerCase().includes(e.target.value.toLowerCase())
     );
     setMoviesToDisplay(filterByPhraze);
     setSearchPhraze(e.target.value);
     document.querySelector(".sort").innerText = "Sort by Title";
-
   };
 
   const filterByGenre = (e) => {
-    const filtered = movies.filter(movie =>movie.Genre.includes(e.target.value))
-    setMoviesToDisplay(filtered);
+    const filteredByGenre = movies.filter(movie =>movie.Genre.includes(e.target.value))
+    setMoviesToDisplay(filteredByGenre);
+    setCopyMovies(filteredByGenre);
     document.querySelector(".sort").innerText = "Sort by Title";
   }
    
