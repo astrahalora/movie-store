@@ -1,21 +1,47 @@
 .movies {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
 
-    .movie {
+    .all-movies {
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
-        flex-direction: column;
         justify-content: center;
-        width: 250px;
-        height: 460px;
-        padding: 1em;
-        
-        img {
-            height: 75%;
-            width: 100%;
+    
+        .movie {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            width: 250px;
+            height: 460px;
+            padding: 1em;
+            
+            img {
+                height: 75%;
+                width: 100%;
+            }
         }
     }
+
+    .sort-btns {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2em;
+
+        button {
+            font-size: 1rem;
+
+        }
+    }
+
 }
+
+
+
+
 
