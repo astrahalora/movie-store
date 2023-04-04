@@ -3,7 +3,6 @@ import LoadingPage from './LoadingPage';
 import Movies from './Movies';
 
 export default function Home() {
-
   const [movies, setMovies] = useState(null);
   const [loading, setLoading] = useState(false);
 
