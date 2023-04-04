@@ -6,7 +6,7 @@ export default function Movies({ movies }) {
   const [moviesToDisplay, setMoviesToDisplay] = useState(movies);
   const [searchPhraze, setSearchPhraze] = useState("");
   const [renderOne, setRenderOne] = useState(null);
-  let genres = getGenres();
+  const genres = [...new Set(movies.map((movie) => movie.Genre).join(",").replace(/\s/g,'').split(","))];
 
   const sorter = (e) => {
     if (
@@ -22,7 +22,7 @@ export default function Movies({ movies }) {
         [...previous].sort((a, b) => b.Title.localeCompare(a.Title))
       );
       e.target.innerText = "Sorted Z-A | Sort A-Z";
-    }
+    } 
   };
 
   const search = (e) => {
@@ -31,16 +31,14 @@ export default function Movies({ movies }) {
     );
     setMoviesToDisplay(filterByPhraze);
     setSearchPhraze(e.target.value);
-  };
+    document.querySelector(".sort").innerText = "Sort by Title";
 
-  function getGenres(){
-    let genres = movies.map((movie) => movie.Genre)
-    return [...new Set(genres.join(",").replace(/\s/g,'').split(","))];
-  }
+  };
 
   const filterByGenre = (e) => {
     const filtered = movies.filter(movie =>movie.Genre.includes(e.target.value))
     setMoviesToDisplay(filtered);
+    document.querySelector(".sort").innerText = "Sort by Title";
   }
    
   return (
@@ -79,8 +77,6 @@ export default function Movies({ movies }) {
         </div>
      </div>
     ) }
-       
     </>
-
   );
 }
