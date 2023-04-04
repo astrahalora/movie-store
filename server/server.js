@@ -16,6 +16,10 @@ app.use(express.json());
 //     "link"
 //   );
 
+
+let Movie = require('./model/Movie.js');
+const { log } = require("console");
+
 app.use(function (req, res, next) {
   res.header("Access-Control-Allow-Origin", "*"); // update to match the domain you will make the request from
   res.header(
@@ -26,7 +30,8 @@ app.use(function (req, res, next) {
   next();
 });
 
-app.route("/api/movies").get(async (req, res) => {
+app.route("/api/movies")
+.get(async (req, res) => {
   try {
     const response = await reader(filePath);
     res.status(200).json(response);
@@ -35,5 +40,48 @@ app.route("/api/movies").get(async (req, res) => {
     res.status(500).send("Data could not be found");
   }
 });
+
+app.route("/favorites")
+.get(async (req,res) => {
+  try {
+    const response = await Movie.find();
+    res.json(response);
+  } catch (error) {
+    console.error(error);
+    res.status(500).send("Data could not be found");
+  }
+})
+.post(async (req,res) => {
+  const Title = req.body.Title;
+  const Released = req.body.Released;
+  const Runtime = req.body.Runtime;
+  const Genre = req.body.Genre;
+  const Director = req.body.Director;
+  const Writer = req.body.Writer;
+  const Actors = req.body.Actors;
+  const Plot = req.body.Plot;
+  const Awards = req.body.Awards;
+  const Poster = req.body.Poster;
+  const imdbRating = req.body.imdbRating;
+  const createdAt = Date.now();
+  const movie = new Movie ({
+    Title,
+    Released,
+    Runtime,
+    Genre,
+    Director,
+    Writer,
+    Actors,
+    Plot,
+    Awards,
+    Poster,
+    imdbRating,
+    createdAt
+  });
+  movie.save()
+  .then(movie => res.status(200).send(`${movie.Title} added`))
+  .catch(err => res.status(400).json({ success: false }));
+})
+
 
 app.listen(port, () => console.log(`http://127.0.0.1:${port}/api/movies`));
