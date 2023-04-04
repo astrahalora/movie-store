@@ -1,63 +1,50 @@
-.movies {
+.one-movie {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex-wrap: wrap;
+    align-items: center;
+    margin: 4em 4em;
 
-    .all-movies {
+    .details-1 {
         display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-    
-        .movie {
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
-            width: 250px;
-            height: 460px;
-            padding: 1em;
-            
-            img {
-                height: 75%;
-                width: 100%;
+        max-width: 800px;
+
+        .item-2 {
+            padding: 0 0 2em 2em;
+
+            b, h2 {
+                color: $white;
+            }
+
+            h2 {
+                text-align: center;
+                margin-bottom: 1em;
+            }
+
+            .add-remove {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 0.5em;
+
+                button {
+                    @include button-style;
+                }
+
+                button:first-of-type {
+                    margin-right: 1em;
+                }
             }
         }
     }
 
-    .sort-btns {
-        width: 100%;
+    .details-2 {
         display: flex;
         justify-content: center;
-        align-items: center;
         margin-top: 2em;
-        select{
-            display: flex;
-            flex-wrap: wrap;
-            font-size: 1rem;
-            color:$lightgray;
-            width: 20%;
-            text-align: center; 
-            option{
-                background-color: $black;
-            }
-        }
+
         button {
-            font-size: 1rem;
-            width: 20%;
-
+            @include button-style;
         }
-        input{
-            font-size: 1rem;
-            color:$white;
-            width: 20%;
-            text-align: center;
-
-        }
-        input::placeholder{
-            color:$lightgray;
-        }
-    
     }
-}
+} 
