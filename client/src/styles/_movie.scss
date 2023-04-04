@@ -1,0 +1,50 @@
+.one-movie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4em 4em;
+
+    .details-1 {
+        display: flex;
+        max-width: 800px;
+
+        .item-2 {
+            padding: 0 0 2em 2em;
+
+            b, h2 {
+                color: $white;
+            }
+
+            h2 {
+                text-align: center;
+                margin-bottom: 1em;
+            }
+
+            .add-remove {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 0.5em;
+
+                button {
+                    @include button-style;
+                }
+
+                button:first-of-type {
+                    margin-right: 1em;
+                }
+            }
+        }
+    }
+
+    .details-2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 2em;
+
+        button {
+            @include button-style;
+        }
+    }
+} 
