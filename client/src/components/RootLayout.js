@@ -8,8 +8,10 @@ export default function RootLayout() {
         <header>
             <nav>
                 <img src={cinemagic} alt="Logo"/>
-                <NavLink to="/">Movies</NavLink>
-                <NavLink to="/favorites">Favorite Movies</NavLink>
+                <div>
+                  <NavLink to="/" id="home">Movies</NavLink>
+                  <NavLink to="/favorites">Favorite Movies</NavLink>
+                </div>
             </nav>
         </header>
         <main>

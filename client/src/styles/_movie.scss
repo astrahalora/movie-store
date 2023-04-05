@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 4em 4em;
+    margin: 8em 4em 0 4em;
 
     .details-1 {
         display: flex;
@@ -33,6 +33,7 @@
 
                 button:first-of-type {
                     margin-right: 1em;
+                    border-radius: 50px;
                 }
             }
         }

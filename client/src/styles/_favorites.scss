@@ -1,0 +1,25 @@
+.favorites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+
+    .favorite {
+        display: flex;
+        margin: 2em 1em;
+        width: 400px;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 2em;
+
+        }
+
+        img {
+            width: 150px;
+        }
+    }
+}

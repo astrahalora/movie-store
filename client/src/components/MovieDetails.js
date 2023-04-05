@@ -1,4 +1,5 @@
-export default function MovieDetails({movie, onClick}) {
+export default function MovieDetails({movie, onClick, addOrRemove, checkFavorite}) {
+
   return (
     <div className="one-movie">
       <div className="details-1">
@@ -19,7 +20,7 @@ export default function MovieDetails({movie, onClick}) {
             <p><b>Awards:</b> {movie.Awards}</p>
           </div>
           <div className="add-remove">
-            <button className="add-remove-favs">+</button>
+            <button className="add-remove-favs" onClick={addOrRemove}>{checkFavorite}</button>
             <button className="add-remove-cart">Add to Cart</button>
           </div>
         </div>

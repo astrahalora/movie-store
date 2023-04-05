@@ -16,9 +16,7 @@ app.use(express.json());
 //     "link"
 //   );
 
-
 let Movie = require('./model/Movie.js');
-const { log } = require("console");
 
 app.use(function (req, res, next) {
   res.header("Access-Control-Allow-Origin", "*"); // update to match the domain you will make the request from
@@ -81,6 +79,18 @@ app.route("/favorites")
   movie.save()
   .then(movie => res.status(200).send(`${movie.Title} added`))
   .catch(err => res.status(400).json({ success: false }));
+})
+.delete((req, res) => {
+  const movieName = req.body.title;
+  Movie.deleteOne({Title: movieName})
+  .then(movie => {
+    res.status(200).send('Movie removed from favorites');
+    console.log(movie)
+  })
+  .catch((error => {
+    res.status(500).send(error);
+    console.log(error.message);
+}))
 })
 
 
