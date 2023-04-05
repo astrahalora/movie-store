@@ -20,6 +20,11 @@
             height: 460px;
             padding: 1em;
 
+            h3 {
+                color: $white;
+                margin-top: 0.5em;
+            }
+
             div:first-of-type {
                 text-align: center;
             }

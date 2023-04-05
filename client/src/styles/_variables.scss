@@ -2,7 +2,8 @@ $background-color: #131315;
 $black: black;
 $white: white;
 $lightgray:rgba(255, 255, 255, 0.6);
-$dark-gray: rgb(82, 78, 78);;
+$dark-gray: rgb(82, 78, 78);
+$red: red;
 
 @mixin button-style {
     background-color: $white;

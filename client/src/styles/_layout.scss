@@ -13,6 +13,11 @@ nav {
     top: 0;
     width: 100%;
 
+    div {
+        display: flex;
+        align-items: center;
+    }
+
     #home {
         margin-right: 1em;
     }
