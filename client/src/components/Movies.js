@@ -74,6 +74,20 @@ const isFavorite = (movie) => {
   return "+"
 }
 
+const addToCart = async (movie) => {
+  const movieCopy = JSON.parse(JSON.stringify(movie)); //deep copy
+  const response = await fetch("http://localhost:5000/cart",{
+    method:"POST",
+    headers:{
+      "Content-type":"application/json"
+    },
+    body:JSON.stringify(movieCopy)
+  })
+  .then(res => res.text())
+  .then(res => console.log(res))
+  setFavoritesToSave(previous => [...previous, movie]);
+}
+
 const addToFavorites = async (movie) => {
   const movieCopy = JSON.parse(JSON.stringify(movie)); //deep copy
   const response = await fetch("http://localhost:5000/favorites",{
@@ -85,7 +99,6 @@ const addToFavorites = async (movie) => {
   })
   .then(res => res.text())
   .then(res => console.log(res))
-
   setFavoritesToSave(previous => [...previous, movie]);
 }
 
@@ -139,6 +152,7 @@ return (
            onClick={() => setRenderOne(movie)}
            addOrRemove={() => isFavorite(movie) === "+" ? addToFavorites(movie) : deleteFromFavorites(movie)}
            checkFavorite={isFavorite(movie)}
+           addToCart={() => addToCart(movie)}
           />
         )}
       </div>

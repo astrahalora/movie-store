@@ -28,22 +28,42 @@ export default function FavoriteMovies() {
   return () => abortCont.abort();
 }, []);
 
+  const sortByLongestRuntime = () => {
+    setFavorites(previous => [...previous].sort((a,b) => parseInt(b.Runtime) - parseInt(a.Runtime)))
+  }
+
+  const sortByShortestRuntime = () => {
+    setFavorites(previous => [...previous].sort((a,b) => parseInt(a.Runtime) - parseInt(b.Runtime)))
+  }
+
+  const sortByRating = () => {
+    setFavorites(previous => [...previous].sort((a,b) => parseFloat(b.imdbRating) - parseFloat(a.imdbRating)))
+  }
+
     return (
       <>
       {loading? (
         <LoadingPage />
       ) : (
+        <div className='wraper'>
+        <div className='fav-btns'>
+          <button onClick={sortByLongestRuntime}>Longest Runtime</button>
+          <button onClick={sortByShortestRuntime}>Shortest Runtime</button>
+          <button onClick={sortByRating}>Best Rated</button>
+        </div>
         <div className='favorites'>
-        {favorites && favorites.map(favorite=> (
-          <div className='favorite'>
+        {favorites && favorites.map((favorite, i)=> (
+          <div className='favorite' key={i}>
             <img src={favorite.Poster} alt={favorite.Title}/>
             <div>
               <h3>{favorite.Title}</h3>
               <p><b>Release Date:</b> {favorite.Released}</p>
               <p><b>IMDb Rating:</b> {favorite.imdbRating}</p>
+              <p><b>Runtime:</b> {favorite.Runtime}</p>
             </div>
           </div>
         ))}
+      </div>
       </div>
       )}
       </>
