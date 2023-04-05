@@ -1,4 +1,4 @@
-export default function Movie({movie, onClick, addOrRemove, checkFavorite}) {
+export default function Movie({movie, onClick, addOrRemove, checkFavorite, addToCart}) {
 
   return (
     <div className='movie'>
@@ -10,7 +10,7 @@ export default function Movie({movie, onClick, addOrRemove, checkFavorite}) {
       <div>
         <button className='add-remove-favorites' 
         onClick={addOrRemove}>{checkFavorite}</button>
-        <button className='add-remove-cart'>Add to Cart</button>
+        <button className='add-remove-cart' onClick={(addToCart)}>Add to Cart</button>
       </div>
     </div>
   )
