@@ -7,8 +7,8 @@ export default function Movie({
   deleteCart,
   quantity,
   checkCart,
-  minusQuanitity,
-  plusQuanitity
+  minusQuantity,
+  plusQuantity
 }) {
 
   return (
@@ -25,14 +25,14 @@ export default function Movie({
         {checkCart === "Item In Cart" ? (
           <div className="cart-btns">
             <button onClick={quantity.some(item => item.Title === movie.Title ? item.Quantity - 1 : '') 
-            ? minusQuanitity : () => {deleteCart()}}
+            ? minusQuantity : () => deleteCart()}
             className="first-cart-btn" 
             style={{borderRadius:'5px', padding: '0.5em 1em'}}>-</button>
             <p>{quantity.map(item => item.Title === movie.Title ? item.Quantity : '')}</p>
-            <button onClick={plusQuanitity}>+</button>
+            <button onClick={plusQuantity}>+</button>
           </div>
         ) : (
-          <button className="add-remove-cart" onClick={() => {addToCart()}}>
+          <button className="add-remove-cart" onClick={addToCart}>
             {checkCart}
           </button>
         )}
