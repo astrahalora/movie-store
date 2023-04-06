@@ -1,4 +1,15 @@
-export default function MovieDetails({movie, onClick, addOrRemove, checkFavorite}) {
+export default function MovieDetails({
+  movie,
+  onClick,
+  addOrRemove,
+  checkFavorite,
+  addToCart,
+  deleteCart,
+  quantity,
+  checkCart,
+  minusQuanitity,
+  plusQuanitity
+}) {
 
   return (
     <div className="one-movie">
@@ -21,7 +32,18 @@ export default function MovieDetails({movie, onClick, addOrRemove, checkFavorite
           </div>
           <div className="add-remove">
             <button className="add-remove-favs" onClick={addOrRemove}>{checkFavorite}</button>
-            <button className="add-remove-cart">Add to Cart</button>
+
+        {checkCart === "Item In Cart" ? (
+          <div>
+            <button onClick={quantity.some(item => item.Title === movie.Title ? item.Quantity - 1 : '') ? minusQuanitity :  () => {deleteCart()}}>-</button>
+            <p>{quantity.map(item => item.Title === movie.Title ? item.Quantity : '')}</p>
+            <button onClick={plusQuanitity}>+</button>
+          </div>
+        ) : (
+          <button className="add-remove-cart" onClick={() => {addToCart()}}>
+            {checkCart}
+          </button>
+        )}
           </div>
         </div>
       </div>

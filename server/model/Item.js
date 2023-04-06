@@ -14,6 +14,7 @@ const itemSchema = new Schema({
     Poster: String,
     imdbRating: String,
     Quantity: Number,
+    Price: Number,
     createdAt: Date
 
 });
