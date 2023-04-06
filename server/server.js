@@ -12,8 +12,12 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect(
-    "link"
+// mongoose.connect(
+//     "link"
+//   );
+
+  mongoose.connect(
+    "mongodb+srv://kodin4025:NWxl3xfAHdjg1TEA@cluster0.vbg3puh.mongodb.net/movie"
   );
 
 let Movie = require('./model/Movie.js');

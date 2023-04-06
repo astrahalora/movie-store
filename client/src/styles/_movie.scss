@@ -3,11 +3,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 8em 4em 0 4em;
+    margin: 8em 4em 4em 4em;
 
     .details-1 {
         display: flex;
         max-width: 800px;
+
+        .item-1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
         .item-2 {
             padding: 0 0 2em 2em;
@@ -35,6 +41,10 @@
                     margin-right: 1em;
                     border-radius: 50px;
                 }
+
+                button:hover {
+                    background-color: $pale-red;
+                }
             }
         }
     }
@@ -46,6 +56,10 @@
 
         button {
             @include button-style;
+        }
+
+        button:hover {
+            background-color: $pale-red;
         }
     }
 } 

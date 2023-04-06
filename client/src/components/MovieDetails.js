@@ -34,8 +34,11 @@ export default function MovieDetails({
             <button className="add-remove-favs" onClick={addOrRemove}>{checkFavorite}</button>
 
         {checkCart === "Item In Cart" ? (
-          <div>
-            <button onClick={quantity.some(item => item.Title === movie.Title ? item.Quantity - 1 : '') ? minusQuanitity :  () => {deleteCart()}}>-</button>
+          <div className="cart-btns">
+            <button onClick={quantity.some(item => item.Title === movie.Title ? item.Quantity - 1 : '') 
+            ? minusQuanitity :  () => {deleteCart()}}
+            className="first-cart-btn" 
+            style={{borderRadius:'5px', padding: '0.5em 1em'}}>-</button>
             <p>{quantity.map(item => item.Title === movie.Title ? item.Quantity : '')}</p>
             <button onClick={plusQuanitity}>+</button>
           </div>

@@ -4,6 +4,7 @@ $white: white;
 $lightgray:rgba(255, 255, 255, 0.6);
 $dark-gray: rgb(82, 78, 78);
 $red: red;
+$pale-red: rgb(190, 75, 75);
 
 @mixin button-style {
     background-color: $white;

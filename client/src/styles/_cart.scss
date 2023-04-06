@@ -13,3 +13,12 @@
     margin-right: 0.3em;
     margin-left: 2em;
 }
+
+.cart-btns {
+    display: flex;
+    align-items: center;
+    p {
+        margin-right: 1em;
+        color: $white;
+    }
+}

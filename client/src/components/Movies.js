@@ -27,6 +27,12 @@ export default function Movies({ movies }) {
     };
   };
 
+  useEffect(() => {
+    const abortCont = new AbortController();
+    getFavorites(abortCont);
+    return () => abortCont.abort();
+  }, [favoriteToSave]);
+
   const getCart = async (abort) => {
     try {
       const response = await fetch("http://localhost:5000/cart", {signal: abort.signal});
@@ -40,12 +46,6 @@ export default function Movies({ movies }) {
       }
     };
   };
-
-  useEffect(() => {
-  const abortCont = new AbortController();
-  getFavorites(abortCont);
-  return () => abortCont.abort();
-}, [favoriteToSave]);
 
 useEffect(() => {
   const abortCont = new AbortController();
@@ -168,6 +168,7 @@ const updateQuanitity = async (movie, e) => {
   setItemToSave(previous => [...previous, movie]);
 }
 
+
 const deleteFromFavorites = async(movie) => {
   const movieToDelete = JSON.parse(JSON.stringify(movie));
   const response = await fetch("http://localhost:5000/favorites", {
@@ -188,6 +189,7 @@ return (
   {favorites && renderOne ? (
     <MovieDetails
      movie={renderOne}
+
      onClick={() => setRenderOne(null)}
      addOrRemove={() => isFavorite(renderOne) === "+" ? addToFavorites(renderOne) : deleteFromFavorites(renderOne)}
      checkFavorite={isFavorite(renderOne)}
