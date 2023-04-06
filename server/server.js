@@ -12,9 +12,9 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// mongoose.connect(
-//   "link"
-//   );
+mongoose.connect(
+    "link"
+  );
 
 let Movie = require('./model/Movie.js');
 let Item = require("./model/Item.js");
@@ -117,6 +117,7 @@ app.route("/cart")
   const Poster = req.body.Poster;
   const imdbRating = req.body.imdbRating;
   const Quantity = 1;
+  const Price = 14.99;
   const createdAt = Date.now();
   const item = new Item({
     Title,
@@ -131,11 +132,35 @@ app.route("/cart")
     Poster,
     imdbRating,
     Quantity,
+    Price,
     createdAt
   });
   item.save()
   .then(item => res.status(200).send(`${item.Title} added`))
   .catch(err => res.status(400).json({ success: false }));
+})
+.patch(async (req,res) => {
+  try {
+    const response = await Item.findOneAndUpdate({Title: req.body.Title}, 
+      {Quantity: req.body.Quantity, Price: req.body.Quantity * 14.99});
+    res.status(200).send(`${req.body.Title} has been updated`);
+  } catch (error) {
+    console.error(error);
+    res.status(500).send("Data could not be found");
+  }
+})
+.delete((req, res) => {
+  const movieName = req.body.title;
+  console.log(movieName)
+  Item.deleteOne({Title: movieName})
+  .then(item => {
+    res.status(200).send('Movie removed from cart');
+    console.log(item)
+  })
+  .catch((error => {
+    res.status(500).send(error);
+    console.log(error.message);
+}))
 })
 
 
