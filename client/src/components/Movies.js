@@ -131,7 +131,7 @@ const addToFavorites = async (movie) => {
   setFavoriteToSave(previous => [...previous, movie]);
 }
 
-const deleteCart = async(movie) => {
+const deleteFromCart = async(movie) => {
   const movieToDelete = JSON.parse(JSON.stringify(movie));
   const response = await fetch("http://localhost:5000/cart", {
     method: "DELETE",
@@ -148,7 +148,7 @@ const deleteCart = async(movie) => {
 
 const updateQuanitity = async (movie, e) => {
   const currentMovie = cart.find(item => item.Title === movie.Title);
-  console.log(e.target.innerText)
+
   let movieCopy;
   if (e.target.innerText === "+"){
     movieCopy = {Title: movie.Title, Quantity: currentMovie.Quantity + 1}
@@ -194,11 +194,11 @@ return (
      addOrRemove={() => isFavorite(renderOne) === "+" ? addToFavorites(renderOne) : deleteFromFavorites(renderOne)}
      checkFavorite={isFavorite(renderOne)}
      addToCart={() => addToCart(renderOne)}
-     deleteCart={() => deleteCart(renderOne)}
+     deleteCart={() => deleteFromCart(renderOne)}
      quantity={cart}
      checkCart={isInCart(renderOne)}
-     plusQuanitity={(e) => updateQuanitity(renderOne, e)}
-     minusQuanitity={(e) => updateQuanitity(renderOne, e)}
+     plusQuantity={(e) => updateQuanitity(renderOne, e)}
+     minusQuantity={(e) => updateQuanitity(renderOne, e)}
     />
   ) : (
      <div className="movies">
@@ -212,7 +212,7 @@ return (
         </button>
         <input
           type="text"
-          placeholder="--Search Movie--"
+          placeholder="-- Search Movie --"
           value={searchPhraze}
           onChange={search}
         />
@@ -227,11 +227,11 @@ return (
            addOrRemove={() => isFavorite(movie) === "+" ? addToFavorites(movie) : deleteFromFavorites(movie)}
            checkFavorite={isFavorite(movie)}
            addToCart={() => addToCart(movie)}
-           deleteCart={() => deleteCart(movie)}
+           deleteCart={() => deleteFromCart(movie)}
            quantity={cart}
            checkCart={isInCart(movie)}
-           plusQuanitity={(e) => updateQuanitity(movie, e)}
-           minusQuanitity={(e) => updateQuanitity(movie, e)}
+           plusQuantity={(e) => updateQuanitity(movie, e)}
+           minusQuantity={(e) => updateQuanitity(movie, e)}
           />
         )}
       </div>

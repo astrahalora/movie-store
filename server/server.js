@@ -163,5 +163,4 @@ app.route("/cart")
 }))
 })
 
-
 app.listen(port, () => console.log(`http://127.0.0.1:${port}/api/movies`));

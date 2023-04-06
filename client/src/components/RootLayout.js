@@ -13,7 +13,7 @@ export default function RootLayout() {
       const response = await fetch("http://localhost:5000/cart", {signal: abort.signal});
       const data = await response.json();
       setItems(data);
-      console.log(data)
+
     } catch (error) {
       if(error.name === "AbortError") {
         console.log('Fetch aborted');

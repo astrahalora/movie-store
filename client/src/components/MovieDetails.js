@@ -7,14 +7,14 @@ export default function MovieDetails({
   deleteCart,
   quantity,
   checkCart,
-  minusQuanitity,
-  plusQuanitity
+  minusQuantity,
+  plusQuantity
 }) {
 
   return (
     <div className="one-movie">
       <div className="details-1">
-        <div class="item-1">
+        <div className="item-1">
           <img src={movie.Poster} alt={movie.Title}/>
         </div>
         <div className="item-2">
@@ -36,14 +36,14 @@ export default function MovieDetails({
         {checkCart === "Item In Cart" ? (
           <div className="cart-btns">
             <button onClick={quantity.some(item => item.Title === movie.Title ? item.Quantity - 1 : '') 
-            ? minusQuanitity :  () => {deleteCart()}}
+            ? minusQuantity :  () => deleteCart()}
             className="first-cart-btn" 
             style={{borderRadius:'5px', padding: '0.5em 1em'}}>-</button>
             <p>{quantity.map(item => item.Title === movie.Title ? item.Quantity : '')}</p>
-            <button onClick={plusQuanitity}>+</button>
+            <button onClick={plusQuantity}>+</button>
           </div>
         ) : (
-          <button className="add-remove-cart" onClick={() => {addToCart()}}>
+          <button className="add-remove-cart" onClick={addToCart}>
             {checkCart}
           </button>
         )}
@@ -56,4 +56,5 @@ export default function MovieDetails({
     </div>
   )
 }
+  
   
