@@ -16,6 +16,10 @@ nav {
     div {
         display: flex;
         align-items: center;
+
+        a:hover, a.active {
+            color: $pale-red;
+        }
     }
 
     #home {

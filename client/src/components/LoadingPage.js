@@ -1,9 +1,9 @@
-import loadingcircle from './img/loadingcircle.gif'
+import countdown from './img/countdown.gif'
 
 export default function LoadingPage() {
   return (
     <div className="loading">
-      <img src={loadingcircle} alt="Loading"/>
+      <img src={countdown} alt="Loading"/>
       <p>Loading...</p>
     </div>
   )
