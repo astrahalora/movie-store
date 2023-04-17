@@ -28,7 +28,9 @@
     "BoxOffice": "$57,490,508",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/4L-xlmakQvc",
+    "Price": "12"
   },
   {
     "Title": "Hamilton",
@@ -59,7 +61,9 @@
     "BoxOffice": "N/A",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/DSCKfXpAGHc",
+    "Price": "16.50"
   },
   {
     "Title": "Moulin Rouge!",
@@ -89,7 +93,9 @@
     "BoxOffice": "$57,386,607",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/LVLjp3_MQIw",
+    "Price": "12.20"
   },
   {
     "Title": "Les Miserables",
@@ -116,7 +122,9 @@
     "BoxOffice": "N/A",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/TYpydlgh-YY",
+    "Price": "15.40"
   },
   {
     "Title": "Jurassic Park",
@@ -147,7 +155,9 @@
     "BoxOffice": "$404,214,720",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/TYpydlgh-YY",
+    "Price": "12"
   },
   {
     "Title": "Jurassic World",
@@ -178,7 +188,9 @@
     "BoxOffice": "$653,406,625",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/lc0UehYemQA",
+    "Price": "14.90"
   },
   {
     "Title": "Jurassic World: Dominion",
@@ -209,7 +221,9 @@
     "BoxOffice": "$374,817,385",
     "Production": "Universal Pictures",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/fb5ELWi-ekk",
+    "Price": "15.90"
   },
   {
     "Title": "Jurassic World: Fallen Kingdom",
@@ -240,7 +254,9 @@
     "BoxOffice": "$417,719,760",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/vn9mMeWcgoM",
+    "Price": "14.90"
   },
   {
     "Title": "Harry Potter and the Sorcerer's Stone",
@@ -271,7 +287,9 @@
     "BoxOffice": "$318,886,962",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/VyHV0BRtdxo",
+    "Price": "13.15"
   },
   {
     "Title": "Harry Potter and the Chamber of Secrets",
@@ -302,7 +320,9 @@
     "BoxOffice": "$262,641,637",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/3VfUMZhv37Y",
+    "Price": "13.25"
   },
   {
     "Title": "Harry Potter and the Prisoner of Azkaban",
@@ -333,7 +353,9 @@
     "BoxOffice": "$250,105,651",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/1ZdlAg3j8nI",
+    "Price": "13.40"
   },
   {
     "Title": "The Lost City",
@@ -364,7 +386,9 @@
     "BoxOffice": "$105,344,029",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/nfKO9rYDmE8",
+    "Price": "17"
   },
   {
     "Title": "Pride and Prejudice",
@@ -388,7 +412,9 @@
     "imdbID": "tt0112130",
     "Type": "series",
     "totalSeasons": "1",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/P5MmcT_vcBU",
+    "Price": "18"
   },
   {
     "Title": "The Time Traveler's Wife",
@@ -419,7 +445,9 @@
     "BoxOffice": "$63,414,846",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/9rUPZBibHAQ",
+    "Price": "12"
   },
   {
     "Title": "Dear John",
@@ -450,7 +478,9 @@
     "BoxOffice": "$80,014,842",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/r0fq5dd0C60",
+    "Price": "11.95"
   },
   {
     "Title": "Focus",
@@ -480,7 +510,9 @@
     "BoxOffice": "$53,862,963",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/MxCRgtdAuBo",
+    "Price": "14.25"
   },
   {
     "Title": "Titanic",
@@ -511,7 +543,9 @@
     "BoxOffice": "$659,363,944",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/CHekzSiZjrY",
+    "Price": "12.25"
   },
   {
     "Title": "Murder Mystery",
@@ -542,7 +576,9 @@
     "BoxOffice": "N/A",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/5YEVQDr2f3Q",
+    "Price": "13.10"
   },
   {
     "Title": "Just Go with It",
@@ -573,7 +609,9 @@
     "BoxOffice": "$103,028,109",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/5YEVQDr2f3Q",
+    "Price": "12.10"
   },
   {
     "Title": "Wedding Crashers",
@@ -604,7 +642,9 @@
     "BoxOffice": "$209,273,411",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/GnD48PD84-8",
+    "Price": "10"
   },
   {
     "Title": "Avengers: Infinity War",
@@ -635,7 +675,9 @@
     "BoxOffice": "$678,815,482",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/6ZfuNTqbHE8",
+    "Price": "20.25"
   },
   {
     "Title": "The Avengers",
@@ -666,7 +708,9 @@
     "BoxOffice": "$623,357,910",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/eOrNdBpGMv8",
+    "Price": "20"
   },
   {
     "Title": "Avengers: Age of Ultron",
@@ -697,7 +741,9 @@
     "BoxOffice": "$459,005,868",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/tmeOjFno6Do",
+    "Price": "20.10"
   },
   {
     "Title": "Avengers: Endgame",
@@ -727,7 +773,9 @@
     "BoxOffice": "$858,373,000",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/TcMBFSGVi1c",
+    "Price": "22.50"
   },
   {
     "Title": "The Nun",
@@ -758,7 +806,9 @@
     "BoxOffice": "$117,481,222",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/pzD9zGcUNrw",
+    "Price": "14.75"
   },
   {
     "Title": "The Conjuring",
@@ -789,7 +839,9 @@
     "BoxOffice": "$137,446,368",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/k10ETZ41q5o",
+    "Price": "9.50"
   },
   {
     "Title": "Creed III",
@@ -820,7 +872,9 @@
     "BoxOffice": "$130,444,403",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/AHmCH7iB_IM",
+    "Price": "20"
   },
   {
     "Title": "Constantine",
@@ -851,7 +905,9 @@
     "BoxOffice": "$75,976,178",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/DEa508Xmmio",
+    "Price": "9.95"
   },
   {
     "Title": "Avatar",
@@ -882,7 +938,9 @@
     "BoxOffice": "$785,221,649",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/5PSNL1qE6VY",
+    "Price": "17"
   },
   {
     "Title": "The Proposal",
@@ -913,7 +971,9 @@
     "BoxOffice": "$163,958,031",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/Z2lYA7L7PZY",
+    "Price": "9.10"
   },
   {
     "Title": "The Notebook",
@@ -944,7 +1004,9 @@
     "BoxOffice": "$81,417,274",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/BjJcYdEOI0k",
+    "Price": "11.15"
   },
   {
     "Title": "1917",
@@ -975,7 +1037,9 @@
     "BoxOffice": "$159,227,644",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/YqNYrYUiMfg",
+    "Price": "17.15"
   },
   {
     "Title": "Before Sunset",
@@ -1006,7 +1070,9 @@
     "BoxOffice": "$5,820,649",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/oY0oJc3H_bs",
+    "Price": "9"
   },
   {
     "Title": "John Wick",
@@ -1037,7 +1103,9 @@
     "BoxOffice": "$43,037,835",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/C0BMx-qxsP4",
+    "Price": "12.55"
   },
   {
     "Title": "Harry Potter and the Goblet of Fire",
@@ -1068,7 +1136,9 @@
     "BoxOffice": "$290,469,928",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/7lJ6Suyp1ok",
+    "Price": "14"
   },
   {
     "Title": "Harry Potter and the Order of the Phoenix",
@@ -1099,7 +1169,9 @@
     "BoxOffice": "$292,382,727",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/WIj9DYJ5EKk",
+    "Price": "14.50"
   },
   {
     "Title": "Harry Potter and the Half-Blood Prince",
@@ -1130,7 +1202,9 @@
     "BoxOffice": "$302,334,374",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/0ubLa8s0YZk",
+    "Price": "15"
   },
   {
     "Title": "Albert Nobbs",
@@ -1161,7 +1235,9 @@
     "BoxOffice": "$3,014,696",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/oBnNDX2Xmm0",
+    "Price": "9"
   },
   {
     "Title": "The Danish Girl",
@@ -1192,7 +1268,9 @@
     "BoxOffice": "$11,114,018",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/3vyUHGl0Y6E",
+    "Price": "12.15"
   },
   {
     "Title": "Pitch Perfect",
@@ -1223,7 +1301,9 @@
     "BoxOffice": "$65,298,093",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/j9YewJWcZyc",
+    "Price": "11.65"
   },
   {
     "Title": "Elvis",
@@ -1254,7 +1334,9 @@
     "BoxOffice": "$151,040,048",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/Gp2BNHwbwvI",
+    "Price": "16.15"
   },
   {
     "Title": "The Wolf of Wall Street",
@@ -1285,7 +1367,9 @@
     "BoxOffice": "$116,900,694",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/GNGCav9fRhc",
+    "Price": "13.95"
   },
   {
     "Title": "Inception",
@@ -1316,7 +1400,9 @@
     "BoxOffice": "$292,587,330",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/8hP9D6kZseM",
+    "Price": "14.50"
   },
   {
     "Title": "The Matrix",
@@ -1347,7 +1433,9 @@
     "BoxOffice": "$172,076,928",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/9ix7TUGVYIo",
+    "Price": "9.20"
   },
   {
     "Title": "The Matrix Revolutions",
@@ -1378,7 +1466,9 @@
     "BoxOffice": "$139,313,948",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/hMbexEPAOQI",
+    "Price": "9.90"
   },
   {
     "Title": "The Matrix Reloaded",
@@ -1409,7 +1499,9 @@
     "BoxOffice": "$281,576,461",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/zmYE3tg26Qc",
+    "Price": "10"
   },
   {
     "Title": "Madagascar",
@@ -1440,7 +1532,9 @@
     "BoxOffice": "$193,595,521",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/laNiRXqh82Q",
+    "Price": "8"
   },
   {
     "Title": "Ice Age",
@@ -1471,7 +1565,9 @@
     "BoxOffice": "$176,387,405",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/i4noiCRJRoE",
+    "Price": "8.40"
   },
   {
     "Title": "Tangled",
@@ -1502,7 +1598,9 @@
     "BoxOffice": "$200,821,936",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/2f516ZLyC6U",
+    "Price": "14"
   },
   {
     "Title": "The Princess and the Frog",
@@ -1533,7 +1631,9 @@
     "BoxOffice": "$104,400,899",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/ICFE0xiDii0",
+    "Price": "10.10"
   },
   {
     "Title": "Neighbors",
@@ -1564,7 +1664,9 @@
     "BoxOffice": "$150,157,400",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/KrAf5ALLxGI",
+    "Price": "12.10"
   },
   {
     "Title": "Easy A",
@@ -1595,7 +1697,9 @@
     "BoxOffice": "$58,401,464",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/DIZJpLvkchI",
+    "Price": "12"
   },
   {
     "Title": "He's Just Not That Into You",
@@ -1626,7 +1730,9 @@
     "BoxOffice": "$93,953,653",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/3_DHhPckJNo",
+    "Price": "11"
   },
   {
     "Title": "The Greatest Showman",
@@ -1657,7 +1763,9 @@
     "BoxOffice": "$174,340,174",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/AXCTMGYUg9A",
+    "Price": "18"
   },
   {
     "Title": "The Aristocats",
@@ -1688,7 +1796,9 @@
     "BoxOffice": "$35,452,658",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/cJw90EZfLaQ",
+    "Price": "7"
   },
   {
     "Title": "Watchmen",
@@ -1719,38 +1829,42 @@
     "BoxOffice": "$107,509,799",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/89xoXmHgG00",
+    "Price": "12.50"
   },
   {
-    "Title": "Legally Blonde 2: Red, White & Blonde",
-    "Year": "2003",
+    "Title": "Legally Blonde",
+    "Year": "2001",
     "Rated": "PG-13",
-    "Released": "02 Jul 2003",
-    "Runtime": "95 min",
-    "Genre": "Comedy",
-    "Director": "Charles Herman-Wurmfeld",
-    "Writer": "Amanda Brown, Eve Ahlert, Dennis Drake",
-    "Actors": "Reese Witherspoon, Sally Field, Bob Newhart",
-    "Plot": "Sassy postgrad Elle Woods (Reese Witherspoon) is all about animal rights. In fact, she puts her nuptial plans on hold to head to Washington, D.C. to get an anti-animal testing bill passed. Her building's doorman quickly shows her the ways and workings of our nation's capital.",
+    "Released": "13 Jul 2001",
+    "Runtime": "96 min",
+    "Genre": "Comedy, Romance",
+    "Director": "Robert Luketic",
+    "Writer": "Amanda Brown, Karen McCullah, Kirsten Smith",
+    "Actors": "Reese Witherspoon, Luke Wilson, Selma Blair",
+    "Plot": "Elle Woods (Reese Witherspoon) has it all. She's the President of her sorority, a Hawaiian Tropic girl, Miss June in her campus calendar, and, above all, a natural blonde. She dates the cutest fraternity boy on campus and wants nothing more than to be Mrs. Warner Huntington III. But, there's just one thing stopping Warner (Matthew Davis) from popping the question: Elle is too blonde. Growing up across the street from Aaron Spelling might mean something in Los Angeles, California, but nothing to Warner's East-Coast blue blood family. So, when Warner packs up for Harvard Law and reunites with an old sweetheart from prep school, Elle rallies all her resources and gets into Harvard, determined to win him back. But law school is a far cry from the comforts of her poolside and the mall. Elle must wage the battle of her life, for her guy, for herself and for all the blondes who suffer endless indignities everyday.",
     "Language": "English",
     "Country": "United States",
-    "Awards": "3 wins & 5 nominations",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BMTkwNzExMjk0MF5BMl5BanBnXkFtZTcwOTUzNDcyMw@@._V1_SX300.jpg",
+    "Awards": "6 wins & 14 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNTEyNjUwMTkxMV5BMl5BanBnXkFtZTcwNjk0NDk0NA@@._V1_SX300.jpg",
     "Ratings": [
-      { "Source": "Internet Movie Database", "Value": "4.7/10" },
-      { "Source": "Rotten Tomatoes", "Value": "36%" },
-      { "Source": "Metacritic", "Value": "47/100" }
+      { "Source": "Internet Movie Database", "Value": "6.4/10" },
+      { "Source": "Rotten Tomatoes", "Value": "71%" },
+      { "Source": "Metacritic", "Value": "59/100" }
     ],
-    "Metascore": "47",
-    "imdbRating": "4.7",
-    "imdbVotes": "69,220",
-    "imdbID": "tt0333780",
+    "Metascore": "59",
+    "imdbRating": "6.4",
+    "imdbVotes": "226,245",
+    "imdbID": "tt0250494",
     "Type": "movie",
-    "DVD": "04 Nov 2003",
-    "BoxOffice": "$90,186,328",
+    "DVD": "06 Nov 2001",
+    "BoxOffice": "$96,520,674",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/vWOHwI_FgAo",
+    "Price": "13.50"
   },
   {
     "Title": "V for Vendetta",
@@ -1781,7 +1895,9 @@
     "BoxOffice": "$70,511,035",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/lSA7mAHolAw",
+    "Price": "13.50"
   },
   {
     "Title": "The Godfather",
@@ -1812,7 +1928,9 @@
     "BoxOffice": "$136,381,073",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/UaVTIH8mujA",
+    "Price": "10"
   },
   {
     "Title": "Batman: The Dark Knight Returns, Part 1",
@@ -1842,7 +1960,9 @@
     "BoxOffice": "N/A",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/J0H7Du2txOE",
+    "Price": "10.10"
   },
   {
     "Title": "Thor: Love and Thunder",
@@ -1873,7 +1993,9 @@
     "BoxOffice": "$343,256,830",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/Go8nTmfrQd8",
+    "Price": "19"
   },
   {
     "Title": "Forrest Gump",
@@ -1904,7 +2026,9 @@
     "BoxOffice": "$330,455,270",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/XHhAG-YLdk8",
+    "Price": "14"
   },
   {
     "Title": "Beauty and the Beast",
@@ -1935,7 +2059,9 @@
     "BoxOffice": "$218,967,620",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/iurbZwxKFUE",
+    "Price": "7.50"
   },
   {
     "Title": "Twilight",
@@ -1966,7 +2092,9 @@
     "BoxOffice": "$193,962,473",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/uxjNDE2fMjI",
+    "Price": "8.50"
   },
   {
     "Title": "The Lord of the Rings: The Return of the King",
@@ -1997,7 +2125,9 @@
     "BoxOffice": "$378,251,207",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/y2rYRu8UW8M",
+    "Price": "17.50"
   },
   {
     "Title": "The Lord of the Rings: The Fellowship of the Ring",
@@ -2028,7 +2158,9 @@
     "BoxOffice": "$316,115,420",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/aStYWD25fAQ",
+    "Price": "16"
   },
   {
     "Title": "The Lord of the Rings: The Two Towers",
@@ -2059,7 +2191,9 @@
     "BoxOffice": "$342,952,511",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/hYcw5ksV8YQ",
+    "Price": "16.50"
   },
   {
     "Title": "The Day After Tomorrow",
@@ -2090,7 +2224,9 @@
     "BoxOffice": "$186,740,799",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/Ku_IseK3xTc",
+    "Price": "11.35"
   },
   {
     "Title": "Sherlock Holmes",
@@ -2121,7 +2257,9 @@
     "BoxOffice": "$209,028,679",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/iKUzhzustok",
+    "Price": "15.50"
   },
   {
     "Title": "Sherlock Holmes: A Game of Shadows",
@@ -2152,7 +2290,9 @@
     "BoxOffice": "$186,848,418",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/DGBo0cWSb-c",
+    "Price": "16"
   },
   {
     "Title": "The Pursuit of Happyness",
@@ -2183,7 +2323,9 @@
     "BoxOffice": "$163,566,459",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/DMOBlEcRuw8",
+    "Price": "14"
   },
   {
     "Title": "The Boy in the Striped Pajamas",
@@ -2214,7 +2356,9 @@
     "BoxOffice": "$9,046,156",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/J0MH0UO6y78",
+    "Price": "11.50"
   },
   {
     "Title": "Hachi: A Dog's Tale",
@@ -2244,7 +2388,9 @@
     "BoxOffice": "N/A",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/Y6U7mAnPtw4",
+    "Price": "7.40"
   },
   {
     "Title": "Superhero Fight Club",
@@ -2271,7 +2417,9 @@
     "BoxOffice": "N/A",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/a7SnhM6H900",
+    "Price": "12.20"
   },
   {
     "Title": "Jeepers Creepers",
@@ -2302,7 +2450,9 @@
     "BoxOffice": "$37,904,175",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/akFUWf5xe6k",
+    "Price": "8"
   },
   {
     "Title": "Mirrors",
@@ -2333,7 +2483,9 @@
     "BoxOffice": "$30,691,439",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/O92QxxgeCO8",
+    "Price": "10"
   },
   {
     "Title": "The Ring",
@@ -2364,7 +2516,9 @@
     "BoxOffice": "$129,128,133",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/yzR2GY-ew8I",
+    "Price": "11"
   },
   {
     "Title": "After We Fell",
@@ -2394,7 +2548,9 @@
     "BoxOffice": "$2,170,750",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/NYdNN6C9hfI",
+    "Price": "9.10"
   },
   {
     "Title": "After Ever Happy",
@@ -2424,7 +2580,9 @@
     "BoxOffice": "$1,072,750",
     "Production": "Voltage Pictures",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/hLQ-5exgctI",
+    "Price": "9.10"
   },
   {
     "Title": "After We Collided",
@@ -2455,7 +2613,9 @@
     "BoxOffice": "$2,386,483",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/2SvwX3ux_-8",
+    "Price": "9.10"
   },
   {
     "Title": "Life of Pi",
@@ -2486,7 +2646,9 @@
     "BoxOffice": "$124,987,023",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/j9Hjrs6WQ8M",
+    "Price": "16"
   },
   {
     "Title": "Doctor Strange",
@@ -2517,7 +2679,9 @@
     "BoxOffice": "$232,641,920",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/Lt-U_t2pUHI",
+    "Price": "19.15"
   },
   {
     "Title": "Doctor Strange in the Multiverse of Madness",
@@ -2548,7 +2712,9 @@
     "BoxOffice": "$411,331,607",
     "Production": "Walt Disney Pictures",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/Rf8LAYJSOL8",
+    "Price": "20"
   },
   {
     "Title": "Fast & Furious",
@@ -2579,7 +2745,9 @@
     "BoxOffice": "$155,064,265",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/k98tBkRsGl4",
+    "Price": "7.15"
   },
   {
     "Title": "Bigger Than the Sky",
@@ -2610,7 +2778,9 @@
     "BoxOffice": "$21,398",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/GjPfhJiGR_I",
+    "Price": "7.05"
   },
   {
     "Title": "A Walk to Remember",
@@ -2641,7 +2811,9 @@
     "BoxOffice": "$41,281,092",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/k3B2XBcp7vA",
+    "Price": "8.60"
   },
   {
     "Title": "Cruel Intentions",
@@ -2672,7 +2844,9 @@
     "BoxOffice": "$38,773,785",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/_ORVsGsn7_4",
+    "Price": "10.50"
   },
   {
     "Title": "Interstellar",
@@ -2703,7 +2877,9 @@
     "BoxOffice": "$188,020,017",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/zSWdZVtXT7E",
+    "Price": "17.50"
   },
   {
     "Title": "Spirited Away",
@@ -2734,7 +2910,9 @@
     "BoxOffice": "$13,750,644",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/ByXuk9QqQkk",
+    "Price": "14.50"
   },
   {
     "Title": "Gladiator",
@@ -2765,7 +2943,9 @@
     "BoxOffice": "$187,705,427",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/P5ieIbInFpg",
+    "Price": "13.45"
   },
   {
     "Title": "The Eagle",
@@ -2796,7 +2976,9 @@
     "BoxOffice": "$19,490,041",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/3TLYO2I5kgw",
+    "Price": "12.25"
   },
   {
     "Title": "Bruce Almighty",
@@ -2827,7 +3009,9 @@
     "BoxOffice": "$242,829,261",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/fe-luzrqWSk",
+    "Price": "8"
   },
   {
     "Title": "The Prestige",
@@ -2858,7 +3042,9 @@
     "BoxOffice": "$53,089,891",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/9n2B5WW4SKk",
+    "Price": "10.50"
   },
   {
     "Title": "The Illusionist",
@@ -2889,7 +3075,9 @@
     "BoxOffice": "$39,868,642",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/i0xO64icGSY",
+    "Price": "10.90"
   },
   {
     "Title": "The Pianist",
@@ -2920,7 +3108,9 @@
     "BoxOffice": "$32,572,577",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/u_jE7-6Uv7E",
+    "Price": "12.40"
   },
   {
     "Title": "Grave of the Fireflies",
@@ -2951,7 +3141,9 @@
     "BoxOffice": "$516,962",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/4vPeTSRd580",
+    "Price": "11"
   },
   {
     "Title": "Aladdin",
@@ -2982,7 +3174,9 @@
     "BoxOffice": "$217,350,219",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/eTjHiQKJUDY",
+    "Price": "8.40"
   },
   {
     "Title": "The Lion King",
@@ -3013,7 +3207,9 @@
     "BoxOffice": "$422,783,777",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/lFzVJEksoDY",
+    "Price": "8.15"
   },
   {
     "Title": "Zootopia",
@@ -3044,7 +3240,9 @@
     "BoxOffice": "$341,268,248",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/yCOPJi0Urq4",
+    "Price": "17.20"
   },
   {
     "Title": "Salmon Fishing in the Yemen",
@@ -3075,7 +3273,9 @@
     "BoxOffice": "$9,047,981",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/LqzwMX3ftLI",
+    "Price": "7.20"
   },
   {
     "Title": "Spider-Man",
@@ -3106,7 +3306,9 @@
     "BoxOffice": "$407,022,860",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/t06RUxPbp_c",
+    "Price": "12.20"
   },
   {
     "Title": "I, Robot",
@@ -3136,38 +3338,42 @@
     "BoxOffice": "$144,801,023",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/7Dlo-VB0-HI",
+    "Price": "10"
   },
   {
-    "Title": "Blade Runner",
-    "Year": "1982",
+    "Title": "Blade Runner 2049",
+    "Year": "2017",
     "Rated": "R",
-    "Released": "25 Jun 1982",
-    "Runtime": "117 min",
-    "Genre": "Action, Drama, Sci-Fi",
-    "Director": "Ridley Scott",
-    "Writer": "Hampton Fancher, David Webb Peoples, Philip K. Dick",
-    "Actors": "Harrison Ford, Rutger Hauer, Sean Young",
-    "Plot": "In the early twenty-first century, the Tyrell Corporation, during what was called the Nexus phase, developed robots, called \"replicants\", that were supposed to aid society, the replicants which looked and acted like humans. When the superhuman generation Nexus 6 replicants, used for dangerous off-Earth endeavors, began a mutiny on an off-Earth colony, replicants became illegal on Earth. Police units, called \"blade runners\", have the job of destroying - or in their parlance \"retiring\" - any replicant that makes its way back to or created on Earth, with anyone convicted of aiding or assisting a replicant being sentenced to death. It's now November, 2019 in Los Angeles, California. Rick Deckard, a former blade runner, is called out of retirement when four known replicants, most combat models, have made their way back to Earth, with their leader being Roy Batty. One, Leon Kowalski, tried to infiltrate his way into the Tyrell Corporation as an employee, but has since been able to escape. Beyond following Leon's trail in hopes of finding and retiring them all, Deckard believes part of what will help him is figuring out what the replicants wanted with the Tyrell Corporation in trying to infiltrate it. The answer may lie with Tyrell's fail-safe backup mechanism. Beyond tracking the four, Deckard faces a possible dilemma in encountering a fifth replicant: Rachael, who works as Tyrell's assistant. The issue is that Dr. Elden Tyrell is experimenting with her, to provide her with fake memories so as to be able to better control her. With those memories, Rachael has no idea that she is not human. The problem is not only Rachael's assistance to Deckard, but that he is beginning to develop feelings for her.",
-    "Language": "English, German, Cantonese, Japanese, Hungarian, Arabic, Korean",
-    "Country": "United States",
-    "Awards": "Nominated for 2 Oscars. 13 wins & 19 nominations total",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BNzQzMzJhZTEtOWM4NS00MTdhLTg0YjgtMjM4MDRkZjUwZDBlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+    "Released": "06 Oct 2017",
+    "Runtime": "164 min",
+    "Genre": "Action, Drama, Mystery",
+    "Director": "Denis Villeneuve",
+    "Writer": "Hampton Fancher, Michael Green, Philip K. Dick",
+    "Actors": "Harrison Ford, Ryan Gosling, Ana de Armas",
+    "Plot": "Thirty years after the events of Blade Runner (1982), a new Blade Runner, L.A.P.D. Officer \"K\" (Ryan Gosling), unearths a long-buried secret that has the potential to plunge what's left of society into chaos. K's discovery leads him on a quest to find Rick Deckard (Harrison Ford), a former L.A.P.D. Blade Runner, who has been missing for thirty years.",
+    "Language": "English, Finnish, Japanese, Hungarian, Russian, Somali, Spanish",
+    "Country": "United States, United Kingdom, Canada, Spain",
+    "Awards": "Won 2 Oscars. 100 wins & 165 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_SX300.jpg",
     "Ratings": [
-      { "Source": "Internet Movie Database", "Value": "8.1/10" },
-      { "Source": "Rotten Tomatoes", "Value": "89%" },
-      { "Source": "Metacritic", "Value": "84/100" }
+      { "Source": "Internet Movie Database", "Value": "8.0/10" },
+      { "Source": "Rotten Tomatoes", "Value": "88%" },
+      { "Source": "Metacritic", "Value": "81/100" }
     ],
-    "Metascore": "84",
-    "imdbRating": "8.1",
-    "imdbVotes": "782,024",
-    "imdbID": "tt0083658",
+    "Metascore": "81",
+    "imdbRating": "8.0",
+    "imdbVotes": "593,783",
+    "imdbID": "tt1856101",
     "Type": "movie",
-    "DVD": "30 Oct 2001",
-    "BoxOffice": "$32,914,489",
+    "DVD": "16 Jan 2018",
+    "BoxOffice": "$92,071,675",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/gCcx85zbxz4",
+    "Price": "18"
   },
   {
     "Title": "New Year's Eve",
@@ -3198,7 +3404,9 @@
     "BoxOffice": "$54,544,638",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/h_dt27_0vL4",
+    "Price": "15"
   },
   {
     "Title": "Joker",
@@ -3229,7 +3437,9 @@
     "BoxOffice": "$335,477,657",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/zAGVQLHvwOY",
+    "Price": "16.25"
   },
   {
     "Title": "Noah",
@@ -3260,7 +3470,9 @@
     "BoxOffice": "$101,200,044",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/6qmj5mhDwJQ",
+    "Price": "16.10"
   },
   {
     "Title": "The Northman",
@@ -3291,7 +3503,9 @@
     "BoxOffice": "$34,233,110",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/oMSdFM12hOw",
+    "Price": "18"
   },
   {
     "Title": "The Dark Knight Rises",
@@ -3322,7 +3536,9 @@
     "BoxOffice": "$448,149,584",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/g8evyE9TuYk",
+    "Price": "14.55"
   },
   {
     "Title": "Braveheart",
@@ -3353,7 +3569,9 @@
     "BoxOffice": "$75,609,945",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/wj0I8xVTV18",
+    "Price": "11.10"
   },
   {
     "Title": "Amadeus",
@@ -3384,7 +3602,9 @@
     "BoxOffice": "$51,973,029",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/r7kWQj9FCGY",
+    "Price": "7.80"
   },
   {
     "Title": "Evan Almighty",
@@ -3415,7 +3635,9 @@
     "BoxOffice": "$100,462,298",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/y4BaYuoEC1I",
+    "Price": "8.20"
   },
   {
     "Title": "Thor",
@@ -3446,7 +3668,9 @@
     "BoxOffice": "$181,030,624",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/vJUDu40Z_RY",
+    "Price": "14.75"
   },
   {
     "Title": "Good Will Hunting",
@@ -3477,7 +3701,9 @@
     "BoxOffice": "$138,433,435",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/ReIJ1lbL-Q8",
+    "Price": "15"
   },
   {
     "Title": "Eternal Sunshine of the Spotless Mind",
@@ -3508,7 +3734,9 @@
     "BoxOffice": "$34,400,301",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/yE-f1alkq9I",
+    "Price": "9.10"
   },
   {
     "Title": "Princess Mononoke",
@@ -3539,7 +3767,9 @@
     "BoxOffice": "$4,845,631",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/4OiMOHRDs14",
+    "Price": "8.55"
   },
   {
     "Title": "Atonement",
@@ -3570,7 +3800,9 @@
     "BoxOffice": "$50,927,067",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/Z06d-ftqO2Y",
+    "Price": "8.30"
   },
   {
     "Title": "Black Swan",
@@ -3601,7 +3833,9 @@
     "BoxOffice": "$106,954,678",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/5jaI1XOB-bs",
+    "Price": "11.40"
   },
   {
     "Title": "Pirates of the Caribbean: The Curse of the Black Pearl",
@@ -3632,7 +3866,9 @@
     "BoxOffice": "$305,413,918",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/-9HT0l9HV4c",
+    "Price": "13.45"
   },
   {
     "Title": "Real Steel",
@@ -3663,7 +3899,9 @@
     "BoxOffice": "$85,468,508",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/vU3ZqtbIRPI",
+    "Price": "11"
   },
   {
     "Title": "She's the Man",
@@ -3694,7 +3932,9 @@
     "BoxOffice": "$33,741,133",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/Wd7XYQ_ORN8",
+    "Price": "7.80"
   },
   {
     "Title": "Mean Girls",
@@ -3725,7 +3965,9 @@
     "BoxOffice": "$86,058,055",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/oDU84nmSDZY",
+    "Price": "8.90"
   },
   {
     "Title": "Miss Sloane",
@@ -3756,7 +3998,9 @@
     "BoxOffice": "$3,500,605",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/AMUkfmUu44k",
+    "Price": "15.50"
   },
   {
     "Title": "The Shawshank Redemption",
@@ -3787,7 +4031,9 @@
     "BoxOffice": "$28,767,189",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/NmzuHjWmXOc",
+    "Price": "13.20"
   },
   {
     "Title": "Pan's Labyrinth",
@@ -3818,7 +4064,9 @@
     "BoxOffice": "$37,646,380",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/3ARCBVIE_KQ",
+    "Price": "12.40"
   },
   {
     "Title": "Saving Private Ryan",
@@ -3849,7 +4097,9 @@
     "BoxOffice": "$217,049,603",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/9CiW_DgxCnQ",
+    "Price": "11.20"
   },
   {
     "Title": "Fargo",
@@ -3880,7 +4130,9 @@
     "BoxOffice": "$24,611,975",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/ju75Sd4yAZw",
+    "Price": "12"
   },
   {
     "Title": "Donnie Darko",
@@ -3911,7 +4163,9 @@
     "BoxOffice": "$1,478,493",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/rPeGaos7DB4",
+    "Price": "11.25"
   },
   {
     "Title": "Howl's Moving Castle",
@@ -3942,7 +4196,9 @@
     "BoxOffice": "$6,789,268",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/iwROgK94zcM",
+    "Price": "12.40"
   },
   {
     "Title": "Shutter Island",
@@ -3973,7 +4229,9 @@
     "BoxOffice": "$128,012,934",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/YDGldPitxic",
+    "Price": "14.30"
   },
   {
     "Title": "Lost in Translation",
@@ -4004,7 +4262,9 @@
     "BoxOffice": "$44,585,453",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/W6iVPCRflQM",
+    "Price": "14.50"
   },
   {
     "Title": "The Social Network",
@@ -4035,7 +4295,9 @@
     "BoxOffice": "$96,962,694",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/mWoUgftTj3Y",
+    "Price": "12.80"
   },
   {
     "Title": "Men in Black",
@@ -4066,7 +4328,9 @@
     "BoxOffice": "$250,690,539",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/1Q4mhYF9aQQ",
+    "Price": "11.80"
   },
   {
     "Title": "The Curious Case of Benjamin Button",
@@ -4097,7 +4361,9 @@
     "BoxOffice": "$127,509,326",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/iH6FdW39Hag",
+    "Price": "15.90"
   },
   {
     "Title": "The Nightmare Before Christmas",
@@ -4128,7 +4394,9 @@
     "BoxOffice": "$77,368,668",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/wr6N_hZyBCk",
+    "Price": "7.50"
   },
   {
     "Title": "Finding Nemo",
@@ -4159,7 +4427,9 @@
     "BoxOffice": "$380,843,261",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/SPHfeNgogVs",
+    "Price": "12.35"
   },
   {
     "Title": "The Lovely Bones",
@@ -4190,7 +4460,9 @@
     "BoxOffice": "$44,114,232",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/s9PrQmcV81Y",
+    "Price": "13.45"
   },
   {
     "Title": "Amélie",
@@ -4221,7 +4493,9 @@
     "BoxOffice": "$33,225,499",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/lrlQR_KH_nw",
+    "Price": "8.15"
   },
   {
     "Title": "500 Days of Summer",
@@ -4252,7 +4526,9 @@
     "BoxOffice": "$32,391,374",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/Y_qcnmuhueI",
+    "Price": "11.20"
   },
   {
     "Title": "The Bucket List",
@@ -4283,7 +4559,9 @@
     "BoxOffice": "$93,466,502",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/UvdTpywTmQg",
+    "Price": "9.40"
   },
   {
     "Title": "True Grit",
@@ -4314,7 +4592,9 @@
     "BoxOffice": "$171,243,005",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/CUiCu-zuAgM",
+    "Price": "9"
   },
   {
     "Title": "Gone Girl",
@@ -4345,7 +4625,9 @@
     "BoxOffice": "$167,767,189",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/0VGD_jLyE9Y",
+    "Price": "15.50"
   },
   {
     "Title": "The Age of Adaline",
@@ -4376,7 +4658,9 @@
     "BoxOffice": "$42,629,776",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/g9-SnMldtGY",
+    "Price": "12.75"
   },
   {
     "Title": "Green Lantern",
@@ -4407,7 +4691,9 @@
     "BoxOffice": "$116,601,172",
     "Production": "De Line Pictures",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/7-GO9fo9DtM",
+    "Price": "15"
   },
   {
     "Title": "Deadpool",
@@ -4438,7 +4724,9 @@
     "BoxOffice": "$363,070,709",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/Xithigfg7dA",
+    "Price": "15"
   },
   {
     "Title": "Iron Man",
@@ -4469,7 +4757,9 @@
     "BoxOffice": "$319,034,126",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/KAE5ymVLmZg",
+    "Price": "15"
   },
   {
     "Title": "Iron Man 2",
@@ -4500,7 +4790,9 @@
     "BoxOffice": "$312,433,331",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/nS8aKzfIyGY",
+    "Price": "16.10"
   },
   {
     "Title": "Iron Man 3",
@@ -4531,7 +4823,9 @@
     "BoxOffice": "$409,013,994",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/oYSD2VQagc4",
+    "Price": "17.50"
   },
   {
     "Title": "When Marnie Was There",
@@ -4562,7 +4856,9 @@
     "BoxOffice": "$561,085",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/jjmrxqcQdYg",
+    "Price": "15.75"
   },
   {
     "Title": "Becoming Jane",
@@ -4593,7 +4889,9 @@
     "BoxOffice": "$18,670,946",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/qmd-ej9Hx20",
+    "Price": "11.75"
   },
   {
     "Title": "If I Stay",
@@ -4624,7 +4922,9 @@
     "BoxOffice": "$50,474,843",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/rMp896hfp74",
+    "Price": "10.45"
   },
   {
     "Title": "Me Before You",
@@ -4655,34 +4955,42 @@
     "BoxOffice": "$56,245,075",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/Eh993__rOxA",
+    "Price": "13.35"
   },
   {
-    "Title": "The BreakUp",
-    "Year": "2011",
-    "Rated": "PG",
-    "Released": "02 Oct 2011",
-    "Runtime": "10 min",
-    "Genre": "Short, Comedy, Drama",
-    "Director": "Sean Stueve",
-    "Writer": "Joyce Bezazian",
-    "Actors": "Marc Gardner, Nicole Cleveland, Gary Udell",
-    "Plot": "Being a King's fan is an obsession for Bobby. When his \"love\" threatens to leave town, choices must be made and priorities re-examined.",
+    "Title": "The Break-Up",
+    "Year": "2006",
+    "Rated": "PG-13",
+    "Released": "02 Jun 2006",
+    "Runtime": "106 min",
+    "Genre": "Comedy, Drama, Romance",
+    "Director": "Peyton Reed",
+    "Writer": "Jeremy Garelick, Jay Lavender, Vince Vaughn",
+    "Actors": "Jennifer Aniston, Vince Vaughn, Jon Favreau",
+    "Plot": "In Chicago, the art dealer Brooke Meyers feels not appreciated and neglected by her immature boyfriend Gary Grobowski, who is partner with his two brothers in a tourism business, and decides to break-up with him to make Gary miss her. Gary misunderstands her true intention, both follow the wrong advice of family members and friends, beginning a war of sexes with no winner.",
     "Language": "English",
     "Country": "United States",
-    "Awards": "N/A",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BYTlmNTY3OWUtNzc2ZS00ZTY1LThhNGEtZGM5MjU2MzRkODhjXkEyXkFqcGdeQXVyMjgwODc5NjU@._V1_SX300.jpg",
-    "Ratings": [{ "Source": "Internet Movie Database", "Value": "8.6/10" }],
-    "Metascore": "N/A",
-    "imdbRating": "8.6",
-    "imdbVotes": "13",
-    "imdbID": "tt2056724",
+    "Awards": "3 wins & 5 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BOTM1YjVhNTMtZTEyZi00ODk3LWI4NDItZWUyZTA1ODM3Zjk4XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg",
+    "Ratings": [
+      { "Source": "Internet Movie Database", "Value": "5.8/10" },
+      { "Source": "Rotten Tomatoes", "Value": "34%" },
+      { "Source": "Metacritic", "Value": "45/100" }
+    ],
+    "Metascore": "45",
+    "imdbRating": "5.8",
+    "imdbVotes": "134,965",
+    "imdbID": "tt0452594",
     "Type": "movie",
-    "DVD": "N/A",
-    "BoxOffice": "N/A",
+    "DVD": "17 Oct 2006",
+    "BoxOffice": "$118,703,275",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/ljnEUL-fdt0",
+    "Price": "11.30"
   },
   {
     "Title": "What Men Want",
@@ -4713,7 +5021,9 @@
     "BoxOffice": "$54,611,903",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/HeoLiTirRp4",
+    "Price": "11"
   },
   {
     "Title": "What Women Want",
@@ -4744,7 +5054,9 @@
     "BoxOffice": "$182,811,707",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/vZPZFFq1ejo",
+    "Price": "8.90"
   },
   {
     "Title": "Now You See Me",
@@ -4775,7 +5087,9 @@
     "BoxOffice": "$117,723,989",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/KzJNYYkkhzc",
+    "Price": "14.30"
   },
   {
     "Title": "Now You See Me 2",
@@ -4806,7 +5120,9 @@
     "BoxOffice": "$65,075,540",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/4I8rVcSQbic",
+    "Price": "15.20"
   },
   {
     "Title": "Finding Dory",
@@ -4837,7 +5153,9 @@
     "BoxOffice": "$486,295,561",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/9oQ628Seb9w",
+    "Price": "12.20"
   },
   {
     "Title": "Maze",
@@ -4867,37 +5185,42 @@
     "BoxOffice": "$44,381",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/bHzfPqwA9x8",
+    "Price": "12"
   },
   {
-    "Title": "The Nutcracker",
-    "Year": "1993",
-    "Rated": "G",
-    "Released": "24 Nov 1993",
-    "Runtime": "92 min",
-    "Genre": "Family, Fantasy, Music",
-    "Director": "Emile Ardolino",
-    "Writer": "Susan Cooper",
-    "Actors": "Darci Kistler, Damian Woetzel, Kyra Nichols",
-    "Plot": "On Christmas Eve, a little girl named Marie (Cohen) falls asleep after a party at her home and dreams herself (or does she?) into a fantastic world where toys become larger than life. Her beloved Nutcracker (Culkin) comes to life and defends her from the Mouse King, then is turned into a Prince after Marie saves his life.",
-    "Language": "English",
-    "Country": "United States",
-    "Awards": "N/A",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BOGFlNWFjYjUtYjY3YS00N2NmLWE4ODQtMTI5NGFiMGJlZTBiXkEyXkFqcGdeQXVyNTM5NzI0NDY@._V1_SX300.jpg",
+    "Title": "The Nutcracker and the Four Realms",
+    "Year": "2018",
+    "Rated": "PG",
+    "Released": "02 Nov 2018",
+    "Runtime": "99 min",
+    "Genre": "Adventure, Family, Fantasy",
+    "Director": "Lasse Hallström, Joe Johnston",
+    "Writer": "Ashleigh Powell, E.T.A. Hoffmann, Marius Petipa",
+    "Actors": "Mackenzie Foy, Keira Knightley, Morgan Freeman",
+    "Plot": "All Clara (Mackenzie Foy) wants is a key, a one-of-a-kind key that will unlock a box that holds a priceless gift from her late mother. A golden thread, presented to her at godfather Drosselmeyer's (Morgan Freeman's) annual holiday party, leads her to the coveted key which promptly disappears into a strange and mysterious parallel world. It's there that Clara encounters a soldier named Phillip (Jayden Fowora-Knight), a gang of mice, and the regents who preside over three Realms: Land of Snowflakes, Land of Flowers, and Land of Sweets. Clara and Phillip must brave the ominous Fourth Realm, home to the tyrant Mother Ginger (Dame Helen Mirren), to retrieve Clara's key and hopefully return harmony to the unstable world.",
+    "Language": "English, French",
+    "Country": "Canada, United States",
+    "Awards": "1 win & 8 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BOTg1NDI1MjEyMl5BMl5BanBnXkFtZTgwOTA5MTgwNjM@._V1_SX300.jpg",
     "Ratings": [
-      { "Source": "Internet Movie Database", "Value": "5.8/10" },
-      { "Source": "Rotten Tomatoes", "Value": "50%" }
+      { "Source": "Internet Movie Database", "Value": "5.6/10" },
+      { "Source": "Rotten Tomatoes", "Value": "32%" },
+      { "Source": "Metacritic", "Value": "39/100" }
     ],
-    "Metascore": "N/A",
-    "imdbRating": "5.8",
-    "imdbVotes": "2,224",
-    "imdbID": "tt0107719",
+    "Metascore": "39",
+    "imdbRating": "5.6",
+    "imdbVotes": "35,189",
+    "imdbID": "tt5523010",
     "Type": "movie",
-    "DVD": "28 Oct 2008",
-    "BoxOffice": "$2,119,994",
-    "Production": "Warner Bros. Pictures, Atlantic Releasing Corp.",
+    "DVD": "29 Jan 2019",
+    "BoxOffice": "$54,858,851",
+    "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/BXfxLIuNJvw",
+    "Price": "18"
   },
   {
     "Title": "How to Lose a Guy in 10 Days",
@@ -4928,7 +5251,9 @@
     "BoxOffice": "$105,813,373",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/EiHLFK7Fo0s",
+    "Price": "7.80"
   },
   {
     "Title": "Meet the Fockers",
@@ -4959,7 +5284,9 @@
     "BoxOffice": "$279,261,160",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/r5Vpw5QP8FU",
+    "Price": "7.40"
   },
   {
     "Title": "Meet the Parents",
@@ -4990,7 +5317,9 @@
     "BoxOffice": "$166,244,045",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/2djcavCEajA",
+    "Price": "7.20"
   },
   {
     "Title": "Midnight in Paris",
@@ -5021,7 +5350,9 @@
     "BoxOffice": "$56,817,045",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/FAfR8omt-CY",
+    "Price": "12.25"
   },
   {
     "Title": "Saw",
@@ -5052,7 +5383,9 @@
     "BoxOffice": "$56,000,369",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/S-1QgOMQ-ls",
+    "Price": "6.70"
   },
   {
     "Title": "Jaws",
@@ -5083,7 +5416,9 @@
     "BoxOffice": "$265,859,065",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/U1fu_sA7XhE",
+    "Price": "6.50"
   },
   {
     "Title": "Anaconda",
@@ -5114,34 +5449,42 @@
     "BoxOffice": "$65,885,767",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/ZkjWyIdIBJo",
+    "Price": "6.50"
   },
   {
-    "Title": "Red Wedding",
-    "Year": "2012",
-    "Rated": "N/A",
-    "Released": "01 Nov 2012",
-    "Runtime": "58 min",
-    "Genre": "Documentary",
-    "Director": "Lida Chan, Guillaume Suon",
-    "Writer": "Lida Chan, Guillaume Suon",
-    "Actors": "N/A",
-    "Plot": "This is a 2012 documentary film co-directed by Lida Chan and Guillaume Suon, which portrays a victim of forced marriage under the Khmer Rouge regime. The film premiered at the 2012 International Documentary Filmfestival Amsterdam and won the Award for Best Mid-Length Documentary.",
-    "Language": "Central Khmer",
-    "Country": "Cambodia, France",
-    "Awards": "N/A",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BYTI2YTYxZTMtMDdmYi00NDUwLTkyMGQtZjQ2MDEzNjgxMzI5XkEyXkFqcGdeQXVyOTk0MDAwMA@@._V1_SX300.jpg",
-    "Ratings": [],
-    "Metascore": "N/A",
-    "imdbRating": "N/A",
-    "imdbVotes": "15",
-    "imdbID": "tt4599298",
+    "Title": "Crimson Peak",
+    "Year": "2015",
+    "Rated": "R",
+    "Released": "16 Oct 2015",
+    "Runtime": "119 min",
+    "Genre": "Drama, Horror, Mystery",
+    "Director": "Guillermo del Toro",
+    "Writer": "Guillermo del Toro, Matthew Robbins",
+    "Actors": "Mia Wasikowska, Jessica Chastain, Tom Hiddleston",
+    "Plot": "Edith Cushing's mother died when she was young but watches over her. Brought up in the Victorian Era she strives to be more than just a woman of marriageable age. She becomes enamored with Thomas Sharpe, a mysterious stranger. After a series of meetings and incidents she marries Thomas and comes to live with him and his sister, Lady Lucille Sharpe, far away from everything she has known. The naive girl soon comes to realize not everything is as it appears as ghosts of the past quite literally come out of the woodwork. This movie is more about mystery and suspense than gore.",
+    "Language": "English",
+    "Country": "United States, Mexico",
+    "Awards": "6 wins & 42 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZmNkYzk3YjItOTMwYy00ZWViLWIxMTUtZDJiZmY0ZWExYjVmXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+    "Ratings": [
+      { "Source": "Internet Movie Database", "Value": "6.5/10" },
+      { "Source": "Rotten Tomatoes", "Value": "73%" },
+      { "Source": "Metacritic", "Value": "66/100" }
+    ],
+    "Metascore": "66",
+    "imdbRating": "6.5",
+    "imdbVotes": "152,018",
+    "imdbID": "tt2554274",
     "Type": "movie",
-    "DVD": "05 May 2017",
-    "BoxOffice": "N/A",
+    "DVD": "09 Feb 2016",
+    "BoxOffice": "$31,090,320",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/oquZifON8Eg",
+    "Price": "15.25"
   },
   {
     "Title": "The Great Hack",
@@ -5171,7 +5514,9 @@
     "BoxOffice": "N/A",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/iX8GxLP1FHo",
+    "Price": "17"
   },
   {
     "Title": "Ready Player One",
@@ -5202,7 +5547,9 @@
     "BoxOffice": "$137,715,350",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/cSp1dM2Vj48",
+    "Price": "15.20"
   },
   {
     "Title": "Navalny",
@@ -5233,7 +5580,9 @@
     "BoxOffice": "N/A",
     "Production": "Fathom Events",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/hS5EIQ3zubE",
+    "Price": "16.70"
   },
   {
     "Title": "The Mummy",
@@ -5264,7 +5613,9 @@
     "BoxOffice": "$155,385,488",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/IjHgzkQM2Sg",
+    "Price": "7.80"
   },
   {
     "Title": "It Comes at Night",
@@ -5295,7 +5646,9 @@
     "BoxOffice": "$13,985,117",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/sKnigN8OiNc",
+    "Price": "9.30"
   },
   {
     "Title": "Ready or Not",
@@ -5326,7 +5679,9 @@
     "BoxOffice": "$28,714,231",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/ZtYTwUxhAoI",
+    "Price": "14.30"
   },
   {
     "Title": "Kingsman: The Secret Service",
@@ -5357,6 +5712,8 @@
     "BoxOffice": "$128,261,724",
     "Production": "N/A",
     "Website": "N/A",
-    "Response": "True"
+    "Response": "True",
+    "Url": "https://youtu.be/kl8F-8tR8to",
+    "Price": "15"
   }
 ]
