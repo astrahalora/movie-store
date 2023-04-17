@@ -1,21 +1,17 @@
 .movies {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
+    @include flex;
+    @include flex-direction-column;
+    @include justify-content-center;
+    @include flex-wrap-wrap;
     margin-top: 5em;
 
     .all-movies {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
+        @include flex-aligned-justified-center;
+        @include flex-wrap-wrap;
     
         .movie {
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
+            @include flex-aligned-justified-center;
+            @include flex-direction-column;
             width: 250px;
             height: 460px;
             padding: 1em;
@@ -25,88 +21,88 @@
                 margin-top: 0.5em;
             }
 
-            div:first-of-type {
-                text-align: center;
+            p {
+                @include text-align-center;
             }
 
-            div:last-of-type {
-                width: 70%;
-                height: 50px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-
-                button:last-of-type {
-                    background-color: $dark-gray;
-                    color: $white;
-                    padding: 0.5em 1em;
-                    border-radius: 5px;
+            div {
+                &:first-of-type {
+                    @include align-items-center;
                 }
 
-                button:first-of-type {
-                    background-color: $dark-gray;
-                    color: $white;
-                    margin-right: 1em;
-                    padding: 0.5em 0.8em;
-                    border-radius: 100px;
-                }
+                &:last-of-type {
+                    @include flex-aligned-justified-center;
+                    width: 70%;
+                    height: 50px;
+                    
+                    button {
+                        background-color: $dark-gray;
+                        color: $white;
+                        padding: 0.5em 1em;
+                        border-radius: 5px;
 
-                button:hover {
-                    background-color: $pale-red;
+                        &:first-of-type {
+                            margin-right: 1em;
+                            padding: 0.5em 0.8em;
+                            border-radius: 100px;
+                        }
+
+                        &:hover {
+                            background-color: $pale-red;
+                        }
+                    }
                 }
             }
             
             img {
                 height: 75%;
-                width: 100%;
+                @include width100;
                 cursor: pointer;
             }
         }
     }
 
     .sort-btns {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include width100;
+        @include flex-aligned-justified-center;
         margin-top: 2em;
 
         select {
-            display: flex;
-            flex-wrap: wrap;
-            font-size: 1rem;
-            color:$lightgray;
-            width: 20%;
-            text-align: center; 
+            @include flex;
+            @include flex-wrap-wrap;
+            @include font-size1rm;
+            color: $light-gray;
+            @include width20;
+            @include text-align-center;
             cursor: pointer;
 
-            option:first-of-type {
-                border: 1px solid $lightgray;
-            }
-
-            option{
+            option {
                 background-color: $black;
+
+                &:first-of-type {
+                    border: 1px solid $light-gray;
+                }
             }
         }
 
         button {
-            font-size: 1rem;
-            width: 20%;
+            @include font-size1rm;
+            @include width20;
 
         }
 
         input{
-            font-size: 1rem;
+            @include font-size1rm;
             color:$white;
-            width: 20%;
-            text-align: center;
+            @include width20;
+            @include text-align-center;
             background-color: $pale-red;
             padding: 0.5em;
             border-radius: 5px;
         }
 
         input::placeholder{
-            color:$lightgray;
+            color:$light-gray;
         }
 
         select:hover, input:hover, button:hover {
@@ -114,8 +110,3 @@
         }
     }
 }
-
-
-
-
-

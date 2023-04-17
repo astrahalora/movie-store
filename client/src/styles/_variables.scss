@@ -1,7 +1,7 @@
 $background-color: #131315;
 $black: black;
 $white: white;
-$lightgray:rgba(255, 255, 255, 0.6);
+$light-gray:rgba(255, 255, 255, 0.6);
 $dark-gray: rgb(82, 78, 78);
 $red: red;
 $pale-red: rgb(190, 75, 75);
@@ -12,4 +12,51 @@ $pale-red: rgb(190, 75, 75);
     padding: 0.5em 1em;
     font-size: 1rem;
     border-radius: 5px;
+}
+
+@mixin flex {
+    display: flex;
+}
+
+@mixin justify-content-center {
+    justify-content: center;
+}
+
+@mixin align-items-center {
+    align-items: center;
+}
+
+@mixin flex-aligned-center {
+    @include flex;
+    @include align-items-center;
+}
+
+@mixin flex-aligned-justified-center {
+    @include flex;
+    @include align-items-center;
+    @include justify-content-center;
+}
+
+@mixin flex-direction-column {
+    flex-direction: column;
+}
+
+@mixin flex-wrap-wrap {
+    flex-wrap: wrap;
+}
+
+@mixin text-align-center {
+    text-align: center;
+}
+
+@mixin width100 {
+    width: 100%;
+}
+
+@mixin width20 {
+    width: 20%;
+}
+
+@mixin font-size1rm {
+    font-size: 1rem;
 }

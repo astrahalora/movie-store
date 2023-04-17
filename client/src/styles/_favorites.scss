@@ -2,9 +2,7 @@
     margin-top: 7em;
 
     .fav-btns{
-        display:flex;
-        align-items: center;
-        justify-content: center;
+        @include flex-aligned-justified-center;
 
         button{
             @include button-style;
@@ -21,21 +19,19 @@
 }
 
 .favorites {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    @include flex-aligned-justified-center;
+    @include flex-wrap-wrap;
     margin-top: 1em;
 
     .favorite {
-        display: flex;
+        @include flex;
         margin: 2em 1em;
         width: 400px;
 
         div {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+            @include flex;
+            @include flex-direction-column;
+            @include justify-content-center;
             margin-left: 2em;
 
             h3 {

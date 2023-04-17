@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Movie from "./Movie";
 import MovieDetails from "./MovieDetails";
 
@@ -12,6 +12,7 @@ export default function Movies({ movies }) {
   const [favoriteToSave, setFavoriteToSave] = useState([]);
   const [itemToSave, setItemToSave] = useState([]);
   const genres = [...new Set(movies.map((movie) => movie.Genre).join(",").replace(/\s/g,'').split(","))];
+  const btnRef = useRef();
 
   const getFavorites = async (abort) => {
     try {
@@ -53,21 +54,25 @@ useEffect(() => {
   return () => abortCont.abort();
 }, [itemToSave]);
 
+const zaaz = "Sorted Z-A | Sort A-Z";
+const azza = "Sorted A-Z | Sort Z-A";
+const sbt = "Sort by Title";
+
+const sortingFunction = (array, reverse = false) =>
+[...array].sort((a, b) =>
+    reverse
+        ? b.Title.localeCompare(a.Title)
+        : a.Title.localeCompare(b.Title)
+);
+
 const sorter = (e) => {
-  if (
-    e.target.innerText === "Sort by Title" ||
-    e.target.innerText === "Sorted Z-A | Sort A-Z"
-  ) {
-    setMoviesToDisplay((previous) =>
-      [...previous].sort((a, b) => a.Title.localeCompare(b.Title))
-    );
-    e.target.innerText = "Sorted A-Z | Sort Z-A";
-  } else if (e.target.innerText === "Sorted A-Z | Sort Z-A") {
-    setMoviesToDisplay((previous) =>
-      [...previous].sort((a, b) => b.Title.localeCompare(a.Title))
-    );
-    e.target.innerText = "Sorted Z-A | Sort A-Z";
-  } 
+  if (e.target.innerText === sbt || e.target.innerText === zaaz) {
+      setMoviesToDisplay((previous) => sortingFunction(previous));
+      e.target.innerText = azza;
+  } else if (e.target.innerText === azza) {
+      setMoviesToDisplay((previous) => sortingFunction(previous, true));
+      e.target.innerText = zaaz;
+  }
 };
 
 const search = (e) => {
@@ -77,72 +82,72 @@ const search = (e) => {
   );
   setMoviesToDisplay(filterByPhraze);
   setSearchPhraze(e.target.value);
-  document.querySelector(".sort").innerText = "Sort by Title";
+  btnRef.current.innerText = sbt;
 };
 
 const filterByGenre = (e) => {
   const filteredByGenre = movies.filter(movie =>movie.Genre.includes(e.target.value))
   setMoviesToDisplay(filteredByGenre);
   setCopyMovies(filteredByGenre);
-  document.querySelector(".sort").innerText = "Sort by Title";
+  btnRef.current.innerText = sbt;
 }
 
 const isFavorite = (movie) => {
   if (favorites.length) {
-    const exists = (element) => element.Title === movie.Title;
-    return favorites.some(exists) ? "-" : "+" 
+      const has = (element) => element.Title === movie.Title;
+      return favorites.some(has) ? "-" : "+";
   }
-  return "+"
-}
+  return "+";
+};
+
+const addOrRem = (item) =>
+  isFavorite(item) === "+"
+    ? addToFavorites(item)
+    : deleteFromFavorites(item);
 
 const isInCart = (movie) => {
   if(cart.length) {
-    const exists = (element) => element.Title === movie.Title;
-    return cart.some(exists) ? "Item In Cart" : "Add to Cart" 
+    const has = (element) => element.Title === movie.Title;
+    return cart.some(has) ? "Item In Cart" : "Add to Cart" 
   }
   return "Add to Cart";
 }
 
 const addToCart = async (movie) => {
-  const movieCopy = JSON.parse(JSON.stringify(movie)); //deep copy
-  const response = await fetch("http://localhost:5000/cart",{
+  const request = await fetch("http://localhost:5000/cart",{
     method:"POST",
     headers:{
       "Content-type":"application/json"
     },
-    body:JSON.stringify(movieCopy)
+    body:JSON.stringify({...movie})
   })
-  .then(res => res.text())
-  .then(res => console.log(res))
+  const response = await request.json();
+  console.log(response);
   setItemToSave(previous => [...previous, movie]);
 }
 
 const addToFavorites = async (movie) => {
-  const movieCopy = JSON.parse(JSON.stringify(movie)); //deep copy
-  const response = await fetch("http://localhost:5000/favorites",{
-    method:"POST",
-    headers:{
-      "Content-type":"application/json"
-    },
-    body:JSON.stringify(movieCopy)
-  })
-  .then(res => res.text())
-  .then(res => console.log(res))
-  setFavoriteToSave(previous => [...previous, movie]);
-}
+  const request = await fetch("http://localhost:5000/favorites", {
+      method: "POST",
+      headers: { "Content-type": "application/json" },
+      body: JSON.stringify({ ...movie }),
+  });
+  const response = await request.json();
+  console.log(response);
+  setFavoriteToSave((previous) => [...previous, movie]);
+};
 
 const deleteFromCart = async(movie) => {
   const movieToDelete = JSON.parse(JSON.stringify(movie));
-  const response = await fetch("http://localhost:5000/cart", {
+  const request = await fetch("http://localhost:5000/cart", {
     method: "DELETE",
     headers: {
       "Content-type":"application/json"
     },
     body: JSON.stringify({title: movieToDelete.Title})
   })
-  .then(res => res.text())
-  .then(res => console.log(res))
-
+  const response = await request.json();
+  console.log(response);
   setItemToSave(previous => [...previous, movie]);
 }
 
@@ -156,42 +161,37 @@ const updateQuanitity = async (movie, e) => {
     movieCopy = {Title: movie.Title, Quantity: currentMovie.Quantity - 1}
   }
 
-  const response = await fetch("http://localhost:5000/cart",{
+  const request = await fetch("http://localhost:5000/cart",{
     method:"PATCH",
     headers:{
       "Content-type":"application/json"
     },
     body:JSON.stringify(movieCopy)
   })
-  .then(res => res.text())
-  .then(res => console.log(res))
+  const response = await request.json();
+  console.log(response);
   setItemToSave(previous => [...previous, movie]);
 }
 
 
-const deleteFromFavorites = async(movie) => {
-  const movieToDelete = JSON.parse(JSON.stringify(movie));
-  const response = await fetch("http://localhost:5000/favorites", {
-    method: "DELETE",
-    headers: {
-      "Content-type":"application/json"
-    },
-    body: JSON.stringify({title: movieToDelete.Title})
-  })
-  .then(res => res.text())
-  .then(res => console.log(res))
-
-  setFavoriteToSave(previous => [...previous, movie]);
-}
+const deleteFromFavorites = async (movie) => {
+  const request = await fetch("http://localhost:5000/favorites", {
+      method: "DELETE",
+      headers: { "Content-type": "application/json" },
+      body: JSON.stringify({ title: movie.Title }),
+  });
+  const response = await request.json();
+  console.log(response);
+  setFavoriteToSave((previous) => [...previous, movie]);
+};
 
 return (
   <>
   {favorites && renderOne ? (
     <MovieDetails
      movie={renderOne}
-
      onClick={() => setRenderOne(null)}
-     addOrRemove={() => isFavorite(renderOne) === "+" ? addToFavorites(renderOne) : deleteFromFavorites(renderOne)}
+     addOrRemove={() => addOrRem(renderOne)}
      checkFavorite={isFavorite(renderOne)}
      addToCart={() => addToCart(renderOne)}
      deleteCart={() => deleteFromCart(renderOne)}
@@ -207,8 +207,8 @@ return (
           <option disabled selected>Genres</option>
           {genres && genres.map((genre, i) => <option key={i}>{genre}</option>)}
         </select>
-        <button className="sort" onClick={sorter}>
-          Sort by Title
+        <button className="sort" onClick={sorter} ref={btnRef}>
+          {sbt}
         </button>
         <input
           type="text"
@@ -224,7 +224,7 @@ return (
            movie={movie}
            key={i}
            onClick={() => setRenderOne(movie)}
-           addOrRemove={() => isFavorite(movie) === "+" ? addToFavorites(movie) : deleteFromFavorites(movie)}
+           addOrRemove={() => addOrRem(movie)}
            checkFavorite={isFavorite(movie)}
            addToCart={() => addToCart(movie)}
            deleteCart={() => deleteFromCart(movie)}
@@ -240,3 +240,4 @@ return (
   </>
 );
 }
+

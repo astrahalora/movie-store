@@ -40,9 +40,7 @@ export default function FavoriteMovies() {
     setFavorites(previous => [...previous].sort((a,b) => parseFloat(b.imdbRating) - parseFloat(a.imdbRating)))
   }
 
-    return (
-      <>
-      {loading? (
+    return loading ? (
         <LoadingPage />
       ) : (
         <div className='wraper'>
@@ -65,7 +63,5 @@ export default function FavoriteMovies() {
         ))}
       </div>
       </div>
-      )}
-      </>
-    )
-  }
+      );
+    }
