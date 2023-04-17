@@ -6,7 +6,6 @@ import cart from './img/cart.png';
 export default function RootLayout() {
 
   const [items, setItems] = useState(null);
-  const [itemAdded, setItemAdded] = useState([]);
 
   const getCart = async (abort) => {
     try {
@@ -38,24 +37,24 @@ const total = (data) => {
 }
 
   return (
-    <>
-    {items && <div className="root-layout">
+    <div className="root-layout">
         <header>
             <nav>
-                <img src={cinemagic} alt="Logo"/>
+                <NavLink to="/">
+                  <img src={cinemagic} alt="Logo"/>
+                </NavLink>
                 <div>
                   <NavLink to="/" id="home">Movies</NavLink>
                   <NavLink to="/favorites">Favorite Movies</NavLink>
                   <NavLink to="/checkout">
-                    <img src={cart} id="cart-img"alt="Cart"/><p id="amount">{total(items)}</p>
-                    </NavLink>
+                    <img src={cart} id="cart-img"alt="Cart"/><p id="amount">{items? total(items) : null}</p>
+                  </NavLink>
                 </div>
             </nav>
         </header>
         <main>
             <Outlet/>
         </main>
-    </div>}
-    </>
+    </div>
   )
 }

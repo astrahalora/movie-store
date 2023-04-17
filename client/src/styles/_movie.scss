@@ -1,8 +1,6 @@
 .one-movie {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flex-aligned-justified-center;
+    @include flex-direction-column;
     margin: 8em 4em 4em 4em;
 
     .details-1 {
@@ -10,56 +8,52 @@
         max-width: 800px;
 
         .item-1 {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @include flex-aligned-justified-center;
         }
 
         .item-2 {
             padding: 0 0 2em 2em;
 
-            b, h2 {
+            strong, h2 {
                 color: $white;
             }
 
             h2 {
-                text-align: center;
+                @include text-align-center;
                 margin-bottom: 1em;
             }
 
             .add-remove {
-                display: flex;
-                align-items: center;
-                justify-content: center;
+                @include flex-aligned-justified-center;
                 margin-top: 0.5em;
 
                 button {
                     @include button-style;
-                }
 
-                button:first-of-type {
-                    margin-right: 1em;
-                    border-radius: 50px;
-                }
+                    &:first-of-type {
+                        margin-right: 1em;
+                        border-radius: 50px;
+                    }
 
-                button:hover {
-                    background-color: $pale-red;
+                    &:hover {
+                        background-color: $pale-red;
+                    }
                 }
             }
         }
     }
 
     .details-2 {
-        display: flex;
-        justify-content: center;
+        @include flex;
+        @include justify-content-center;
         margin-top: 2em;
 
         button {
             @include button-style;
-        }
 
-        button:hover {
-            background-color: $pale-red;
+            &:hover {
+                background-color: $pale-red;
+            }
         }
     }
 } 

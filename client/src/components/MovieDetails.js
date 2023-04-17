@@ -20,15 +20,15 @@ export default function MovieDetails({
         <div className="item-2">
           <div className="main-details">
             <h2>{movie.Title}</h2>
-            <p><b>Release Date:</b> {movie.Released}</p>
-            <p><b>Runtime:</b> {movie.Runtime}</p>
-            <p><b>Genres:</b> {movie.Genre}</p>
-            <p><b>Directors:</b> {movie.Director}</p>
-            <p><b>Writers:</b> {movie.Writer}</p>
-            <p><b>Actors:</b> {movie.Actors}</p>
-            <p><b>Plot:</b> {movie.Plot}</p>
-            <p><b>IMDb Rating:</b> {movie.imdbRating}</p>
-            <p><b>Awards:</b> {movie.Awards}</p>
+            <p><strong>Release Date:</strong> {movie.Released}</p>
+            <p><strong>Runtime:</strong> {movie.Runtime}</p>
+            <p><strong>Genres:</strong> {movie.Genre}</p>
+            <p><strong>Directors:</strong> {movie.Director}</p>
+            <p><strong>Writers:</strong> {movie.Writer}</p>
+            <p><strong>Actors:</strong> {movie.Actors}</p>
+            <p><strong>Plot:</strong> {movie.Plot}</p>
+            <p><strong>IMDb Rating:</strong> {movie.imdbRating}</p>
+            <p><strong>Awards:</strong> {movie.Awards}</p>
           </div>
           <div className="add-remove">
             <button className="add-remove-favs" onClick={addOrRemove}>{checkFavorite}</button>

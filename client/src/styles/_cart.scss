@@ -15,8 +15,8 @@
 }
 
 .cart-btns {
-    display: flex;
-    align-items: center;
+    @include flex-aligned-center;
+    
     p {
         margin-right: 1em;
         color: $white;

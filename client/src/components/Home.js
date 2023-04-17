@@ -28,15 +28,9 @@ export default function Home() {
     return () => abortCont.abort();
   }, [])
 
-  return (
-    <>
-    {loading? (
+  return loading ? (
       <LoadingPage />
-    ) : (
-      <>
-        {movies && <Movies movies={movies}/>}
-      </>
-    )}
-    </>
-  )
+    ) : movies ? (
+      <Movies movies={movies}/>
+    ) : null;
 }
