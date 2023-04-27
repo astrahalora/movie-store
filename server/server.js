@@ -16,10 +16,6 @@ app.use(express.json());
 //     "link"
 //   );
 
-mongoose.connect(
-  "mongodb+srv://kodin4025:NWxl3xfAHdjg1TEA@cluster0.vbg3puh.mongodb.net/movie"
-);
-
 let Movie = require("./model/Movie.js");
 let Item = require("./model/Item.js");
 let OrderModel = require("./model/Order.js");
