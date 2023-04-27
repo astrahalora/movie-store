@@ -1,24 +1,113 @@
-#amount {
-    display: inline;
-    position: absolute;
-    font-size: 1.4rem;
-    font-weight: bold;
-    color: $red;
-    top: 10px;
-    right: 25px;
-}
-
-#cart-img {
+form {
+    @include flex-aligned-justified-center;
+    @include flex-direction-column;
+    max-width: 600px;
+    height: 100vh;
+  }
+  
+  #cart-img {
     width: 30px;
     margin-right: 0.3em;
     margin-left: 2em;
-}
-
-.cart-btns {
+  }
+  
+  .cart-btns {
     @include flex-aligned-center;
-    
+  
     p {
-        margin-right: 1em;
-        color: $white;
+      margin-right: 1em;
+      color: $white;
     }
-}
+  }
+  
+  .checkout-page {
+    @include flex-aligned-justified-center;
+  }
+  
+  .products {
+    .product {
+      @include flex;
+      justify-content: space-between;
+      min-width: 430px;
+  
+      strong {
+        color: $white;
+      }
+    }
+  
+    .line {
+      @include width100;
+      height: 0.05em;
+      background-color: $light-gray;
+      margin-top: 1em;
+    }
+  
+    .total {
+      p {
+        @include text-align-center;
+        color: $red;
+        margin-top: 1em;
+        font-weight: bold;
+  
+        strong {
+          color: $white;
+        }
+      }
+    }
+  }
+  
+  .client {
+    @include flex-aligned-justified-center;
+    @include flex-direction-column;
+    @include font-size1rm;
+    margin-top: 2em;
+    width: 100%;
+  
+    div {
+      width: 100%;
+      @include flex-aligned-justified-center;
+      @include flex-direction-column;
+  
+      label {
+        display: block;
+        @include text-align-center;
+        color: $white;
+        font-weight: bold;
+        margin-bottom: 0.2em;
+      }
+  
+      input {
+        @include font-size1rm;
+        color: $white;
+        @include text-align-center;
+        background-color: $pale-red;
+        padding: 0.5em;
+        border-radius: 5px;
+        margin-bottom: 0.5em;
+        width: 80%;
+  
+        &::placeholder {
+          @include font-size1rm;
+          color:$light-gray;
+        }
+      }
+    }
+  }
+  
+  .checkout {
+    @include button-style;
+    padding: 0.8em 1.8em;
+    font-weight: bold;
+    margin-top: 1em;
+  
+      &:hover {
+        background-color: $pale-red;
+      }
+  }
+  
+  .no-products {
+    @include flex-aligned-justified-center;
+    font-size: 1.6rem;
+    color: $white;
+    height: 100vh;
+  }  
