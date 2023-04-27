@@ -3,6 +3,10 @@
     @include flex-direction-column;
     margin: 8em 4em 4em 4em;
 
+    .details-0 {
+        margin-bottom: 1rem;
+    }
+
     .details-1 {
         display: flex;
         max-width: 800px;

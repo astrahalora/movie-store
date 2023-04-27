@@ -4,7 +4,7 @@ const cors = require("cors");
 const path = require("path");
 const express = require("express");
 
-const { reader, writer } = require("./fileReader");
+const { reader } = require("./fileReader");
 const filePath = path.join(`${__dirname}/movies.json`);
 
 const port = 5000;
@@ -19,12 +19,9 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// mongoose.connect(
-//     "link"
-//   );
-
 let Movie = require("./model/Movie.js");
 let Item = require("./model/Item.js");
+let OrderModel = require("./model/Order.js");
 
 app.use(function (req, res, next) {
   res.header("Access-Control-Allow-Origin", "*"); // update to match the domain you will make the request from
@@ -132,9 +129,9 @@ app
       Awards,
       Poster,
       imdbRating,
+      Price
     } = req.body;
     const Quantity = 1;
-    const Price = 14.99;
     const createdAt = Date.now();
     
     const item = new Item({
@@ -164,7 +161,7 @@ app
     try {
       const response = await Item.findOneAndUpdate(
         { Title: req.body.Title },
-        { Quantity: req.body.Quantity, Price: req.body.Quantity * 14.99 }
+        { Quantity: req.body.Quantity, Price: req.body.Quantity * req.body.Price }
       );
       res
         .status(200)
@@ -189,6 +186,22 @@ app
       });
   });
 
+  app.route("/orders")
+  .get(async (req, res) => {
+    const orders = await OrderModel.find();
+    return res.json(orders);
+  })
+  .post(async (req, res, next) => {
+    const order = req.body;
+    await Item.deleteMany({});
+  
+    try {
+      const saved = await OrderModel.create(order);
+      return res.json(saved);
+    } catch (err) {
+      return next(err);
+    }
+  })
 
 const main = async () => {
   await mongoose.connect(MONGO_URL);
@@ -200,4 +213,3 @@ main().catch((err) => {
   console.error(err);
   process.exit(1);
 });
-

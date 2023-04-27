@@ -11,8 +11,21 @@ export default function MovieDetails({
   plusQuantity
 }) {
 
+const getUrlId = (url) => {
+  return url.split("/")[url.split("/").length-1]
+}
+
   return (
     <div className="one-movie">
+      <div className="details-0">
+        <iframe width="560" height="315" 
+            src={`https://www.youtube.com/embed/${getUrlId(movie.Url)}`} 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; 
+            encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+        </iframe>
+      </div>
       <div className="details-1">
         <div className="item-1">
           <img src={movie.Poster} alt={movie.Title}/>
