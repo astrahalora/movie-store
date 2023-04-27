@@ -4,7 +4,7 @@ const cors = require("cors");
 const path = require("path");
 const express = require("express");
 
-const { reader, writer } = require("./fileReader");
+const { reader } = require("./fileReader");
 const filePath = path.join(`${__dirname}/movies.json`);
 
 const port = 5000;
