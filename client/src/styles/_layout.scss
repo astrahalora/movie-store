@@ -13,6 +13,10 @@ nav {
     top: 0;
     @include width100;
 
+    @media (max-width: 300px) {
+        padding: 0.5em;
+    }
+
     div {
         @include flex-aligned-center;
 

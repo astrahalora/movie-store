@@ -18,8 +18,7 @@ const getUrlId = (url) => {
   return (
     <div className="one-movie">
       <div className="details-0">
-        <iframe width="560" height="315" 
-            src={`https://www.youtube.com/embed/${getUrlId(movie.Url)}`} 
+        <iframe src={`https://www.youtube.com/embed/${getUrlId(movie.Url)}`} 
             title="YouTube video player" frameborder="0" 
             allow="accelerometer; autoplay; clipboard-write; 
             encrypted-media; gyroscope; picture-in-picture; web-share" 

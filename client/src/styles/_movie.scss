@@ -1,22 +1,59 @@
 .one-movie {
     @include flex-aligned-justified-center;
     @include flex-direction-column;
-    margin: 8em 4em 4em 4em;
+    padding: 8em 4em 4em 4em;
+
+    @media (max-width: 870px) {
+        padding: 8em 2em 4em 2em;
+    }
+
+    @media (max-width: 300px) {
+        padding: 6.2em 2em 4em 2em;
+    }
 
     .details-0 {
         margin-bottom: 1rem;
+
+        iframe {
+            width: 560px; 
+            height: 315px;
+
+            @media (max-width: 610px) {
+                width: 100%;
+                height: 100%;
+            }
+        }
     }
 
     .details-1 {
         display: flex;
         max-width: 800px;
 
+        @media (max-width: 870px) {
+            @include flex-wrap-wrap;
+        }
+
         .item-1 {
             @include flex-aligned-justified-center;
+
+            @media (max-width: 870px) {
+                margin: 0.5em auto 1em auto;
+            }
+
+            @media (max-width: 300px) {
+                img {
+                    width: 100%;
+                }
+                margin: 0.5em auto 1em auto;
+            }
         }
 
         .item-2 {
             padding: 0 0 2em 2em;
+
+            @media (max-width: 870px) {
+                padding: 0;
+            }
 
             strong, h2 {
                 color: $white;
@@ -29,7 +66,7 @@
 
             .add-remove {
                 @include flex-aligned-justified-center;
-                margin-top: 0.5em;
+                margin-top: 1em;
 
                 button {
                     @include button-style;
