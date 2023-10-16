@@ -74,7 +74,7 @@ const onSubmit = (e) => {
   return (
     <>
     {cart?.length ? (<div className='checkout-page'>
-      <form onSubmit={onSubmit}> 
+      <form name="order" onSubmit={onSubmit}> 
         <div className='products'>
             {cart && cart.map(cartItem => (
               <div className='product' key={cartItem._id}>

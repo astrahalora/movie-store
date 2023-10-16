@@ -203,7 +203,7 @@ return (
   ) : (
      <div className="movies">
       <div className="sort-btns">
-        <select onChange={filterByGenre}>
+        <select title="genre-filter" name="genres" onChange={filterByGenre}>
           <option disabled selected>Genres</option>
           {genres && genres.map((genre, i) => <option key={i}>{genre}</option>)}
         </select>
@@ -212,6 +212,7 @@ return (
         </button>
         <input
           type="text"
+          name="movieSearch"
           placeholder="-- Search Movie --"
           value={searchPhraze}
           onChange={search}

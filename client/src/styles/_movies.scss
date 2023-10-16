@@ -65,11 +65,15 @@
     .sort-btns {
         @include width100;
         @include flex-aligned-justified-center;
+        @include flex-wrap-wrap;
         margin-top: 2em;
+
+        @media (max-width: 730px) {
+            @include flex-direction-column;
+        }
 
         select {
             @include flex;
-            @include flex-wrap-wrap;
             @include font-size1rm;
             color: $light-gray;
             @include width20;
@@ -107,6 +111,13 @@
 
         select:hover, button:hover {
             color: $pale-red;
+        }
+
+        select, .sort, input {
+            @media (max-width: 730px) {
+                width: auto;
+                margin-bottom: 0.5em;
+            }
         }
     }
 }
