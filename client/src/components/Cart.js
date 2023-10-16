@@ -78,8 +78,8 @@ const onSubmit = (e) => {
         <div className='products'>
             {cart && cart.map(cartItem => (
               <div className='product' key={cartItem._id}>
-                <p><strong>{cartItem.Title}</strong> x{cartItem.Quantity}</p>
-                <p><strong>${cartItem.Price}</strong></p>
+                <p className='product-title'><strong>{cartItem.Title}</strong> x{cartItem.Quantity}</p>
+                <p className='product-price'><strong>${cartItem.Price}</strong></p>
               </div>
             ))}
           <div className='line'></div>

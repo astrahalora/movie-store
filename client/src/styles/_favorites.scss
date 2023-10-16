@@ -1,11 +1,20 @@
 .wraper {
     margin-top: 7em;
 
+    @media (max-width: 475px) {
+        margin-top: 6.5em;
+    }
+
     .fav-btns{
         @include flex-aligned-justified-center;
 
+        @media (max-width: 475px) {
+            @include flex-wrap-wrap;
+        }
+
         button{
             @include button-style;
+            margin-top: 0.5em;
         }
 
         button:first-of-type, button:nth-child(2){

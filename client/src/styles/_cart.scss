@@ -3,6 +3,11 @@ form {
     @include flex-direction-column;
     max-width: 600px;
     height: 100vh;
+
+    @media (max-height: 670px) {
+      height: 100%;
+      margin-top: 7em;
+    }
   }
   
   #cart-img {
@@ -29,6 +34,12 @@ form {
       @include flex;
       justify-content: space-between;
       min-width: 430px;
+
+      @media (max-width: 600px) {
+        @include text-align-center;
+        display: block;
+        min-width: 50px;
+      }
   
       strong {
         color: $white;
@@ -36,10 +47,15 @@ form {
     }
   
     .line {
-      @include width100;
       height: 0.05em;
       background-color: $light-gray;
       margin-top: 1em;
+      @include width100;
+
+      @media (max-width: 600px) {
+        width: 90%;
+        margin: 1em auto;
+      }
     }
   
     .total {
@@ -61,10 +77,10 @@ form {
     @include flex-direction-column;
     @include font-size1rm;
     margin-top: 2em;
-    width: 100%;
+    @include width100;
   
     div {
-      width: 100%;
+      @include width100;
       @include flex-aligned-justified-center;
       @include flex-direction-column;
   
