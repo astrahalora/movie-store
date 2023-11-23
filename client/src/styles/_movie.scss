@@ -83,18 +83,4 @@
             }
         }
     }
-
-    .details-2 {
-        @include flex;
-        @include justify-content-center;
-        margin-top: 2em;
-
-        button {
-            @include button-style;
-
-            &:hover {
-                background-color: $pale-red;
-            }
-        }
-    }
 } 
