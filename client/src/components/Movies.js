@@ -190,7 +190,6 @@ return (
   {favorites && renderOne ? (
     <MovieDetails
      movie={renderOne}
-     onClick={() => setRenderOne(null)}
      addOrRemove={() => addOrRem(renderOne)}
      checkFavorite={isFavorite(renderOne)}
      addToCart={() => addToCart(renderOne)}

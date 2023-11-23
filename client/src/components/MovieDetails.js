@@ -1,6 +1,5 @@
 export default function MovieDetails({
   movie,
-  onClick,
   addOrRemove,
   checkFavorite,
   addToCart,
@@ -61,9 +60,6 @@ const getUrlId = (url) => {
         )}
           </div>
         </div>
-      </div>
-      <div className="details-2">
-        <button className="back-btn" onClick={onClick}>Back</button>
       </div>
     </div>
   )

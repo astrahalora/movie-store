@@ -3,12 +3,12 @@ import cinemagic from './img/cinemagic.png'
 import cart from './img/cart.png';
 
 export default function RootLayout() {
-
   const navigate = useNavigate();
 
   const navigateToRoot = () => {
-    navigate('/');
-  };
+    navigate("/");
+    window.location.reload();
+  }
 
   return (
     <div className="root-layout">
@@ -18,7 +18,7 @@ export default function RootLayout() {
                   <img src={cinemagic} alt="Logo" onClick={navigateToRoot}/>
                 </NavLink>
                 <div>
-                  <NavLink to="/" id="home">Movies</NavLink>
+                  <NavLink to="/" id="home" onClick={navigateToRoot}>Movies</NavLink>
                   <NavLink to="/favorites">Favorite Movies</NavLink>
                   <NavLink to="/checkout">
                     <img src={cart} id="cart-img"alt="Cart"/>
