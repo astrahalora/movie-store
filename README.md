@@ -10,7 +10,7 @@ Fully responsive MERN stack project initialized with create-react-app. It featur
 - ability to place an order
 - all interaction data stored in a MongoDB Cluster (cart, favorites, orders)
 
-![cinemagic main page](https://images2.imgbox.com/7e/12/8QFOW0Qc_o.jpg)
+![cinemagic main page](https://images2.imgbox.com/13/e3/RBxkpauM_o.jpg)
 
 ## Technologies used
 
