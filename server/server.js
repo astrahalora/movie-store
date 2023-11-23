@@ -5,7 +5,7 @@ const express = require("express");
 const app = express();
 
 const port = 5000;
-const {MONGO_URL} = process.env;
+const { MONGO_URL } = process.env;
 
 if (!MONGO_URL) {
   console.error("Missing MONGO_URL environment variable");
@@ -30,10 +30,10 @@ app.use(function (req, res, next) {
   next();
 });
 
-app.use("/api/movies",movieRouter);
+app.use("/api/movies", movieRouter);
 app.use("/favorites", favoriteMovies);
-app.use("/cart",cart);
-app.use("/orders",orders);
+app.use("/cart", cart);
+app.use("/orders", orders);
 
 const main = async () => {
   await mongoose.connect(MONGO_URL);
