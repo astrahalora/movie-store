@@ -12,6 +12,14 @@ Fully responsive MERN stack project initialized with create-react-app. It featur
 
 ![Cinemagic main page](https://images2.imgbox.com/63/95/zMch4hyt_o.jpg)
 
+## Technologies used
+
+- React (frontend JavaScript library for building user interfaces based on components)
+- Node.js (backend JavaScript runtime environment)
+- Express.js (backend web application framework for building RESTful APIs with Node.js)
+- MongoDB (NoSQL database program)
+- SCSS (CSS preprocessor)
+
 # Setup
 
 1. Navigate to the *client* directory and type the npm install command in your terminal
