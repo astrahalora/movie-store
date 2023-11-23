@@ -60,7 +60,7 @@ const onSubmit = (e) => {
     ))
   }
 
-  navigate("/");
+  navigate("/complete");
 
   return fetch("http://localhost:5000/orders", {
       method: "POST",

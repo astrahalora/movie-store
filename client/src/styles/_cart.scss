@@ -121,7 +121,7 @@ form {
       }
   }
   
-  .no-products {
+  .no-products, .order-sent {
     @include flex-aligned-justified-center;
     font-size: 1.6rem;
     color: $white;

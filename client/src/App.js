@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import FavoriteMovies from "./components/FavoriteMovies";
 import Cart from "./components/Cart";
 import './App.scss';
+import OrderCompleted from "./components/OrderCompleted";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -11,6 +12,7 @@ const router = createBrowserRouter(
       <Route index element={<Home/>}/>
       <Route path="/favorites" element={<FavoriteMovies/>}/>
       <Route path="/checkout" element={<Cart/>}/>
+      <Route path="/complete" element={<OrderCompleted/>}/>
     </Route>
   )
 )
