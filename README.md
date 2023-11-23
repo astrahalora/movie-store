@@ -1,3 +1,17 @@
+# About
+
+Fully responsive MERN stack project initialized with create-react-app. It features an online movie store theme complete with:
+
+- custom logo courtesy of shopify's Free Logo Maker
+- fav icon
+- custom API based on OMDb API data (circa 2023) enhanced with youtube video links
+- movie filtering by genre, sorting & searching by name
+- ability to mark favorites and see them in a separate page
+- ability to place an order
+- all interaction data stored in a MongoDB Cluster (cart, favorites, orders)
+
+![Cinemagic main page](https://images2.imgbox.com/2c/66/oGP7S7Pr_o.jpg)
+
 # Setup
 
 1. Navigate to the *client* directory and type the npm install command in your terminal
