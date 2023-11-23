@@ -12,10 +12,10 @@ if (!MONGO_URL) {
   process.exit(1);
 }
 
-const movieRouter = require("./routes/Movies");
-const favoriteMovies = require("./routes/FavoriteMovies");
-const cart = require("./routes/Cart");
-const orders = require("./routes/Orders");
+const moviesRouter = require("./routes/Movies");
+const favoriteMoviesRouter = require("./routes/FavoriteMovies");
+const cartRouter = require("./routes/Cart");
+const ordersRouter = require("./routes/Orders");
 
 app.use(cors());
 app.use(express.json());
@@ -30,10 +30,10 @@ app.use(function (req, res, next) {
   next();
 });
 
-app.use("/api/movies", movieRouter);
-app.use("/favorites", favoriteMovies);
-app.use("/cart", cart);
-app.use("/orders", orders);
+app.use("/api/movies", moviesRouter);
+app.use("/favorites", favoriteMoviesRouter);
+app.use("/cart", cartRouter);
+app.use("/orders", ordersRouter);
 
 const main = async () => {
   await mongoose.connect(MONGO_URL);
