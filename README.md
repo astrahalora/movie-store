@@ -78,9 +78,9 @@ Make sure you give permission to your current IP to your MongoBD cluster.
 
 # Features Summary
 
-The main page features all the movies provided by our API. You can interact with the page by:
+The main page displays all the movies provided by our API. You can interact with the page by:
 
-## Filtering displayed movies by genre
+## Filtering by genre
 
 ![filter movies by genre](https://images2.imgbox.com/0e/24/eNd3DBpK_o.jpg)
 
@@ -91,3 +91,7 @@ The main page features all the movies provided by our API. You can interact with
 ## Search by title
 
 ![search by title](https://images2.imgbox.com/3f/cd/LtzHSWhZ_o.jpg)
+
+## Click on Movie Poster to see details
+
+![movie details](https://images2.imgbox.com/d6/f6/5J6YD7La_o.jpg)
