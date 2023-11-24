@@ -42,7 +42,7 @@ npm start
 
 The frontend will start after a short while and automatically open in your browser having the following root address: http://localhost:3000 
 
-You should be able to see the loading icon!
+You should now be able to see the loading icon!
 
 ## Server side
 
@@ -60,7 +60,7 @@ This server runs based on a MongoDB cluster. You need a MongoDB account and avai
 
 Create a .env file in the *server* directory. 
 
-Check out the .env.example file to see how the link to your cluster is supposed to look. Fill out the .env file with this info (can copy paste the example and change the username and password).
+Check out the .env.example file to see how the link to your cluster is recommended to look. Fill out the .env file with this info (can copy paste the example and change the username and password). 
 
 ### Start the server
 
@@ -72,6 +72,22 @@ node server
 
 Your local server should now be running at the address specified in the terminal! If you refresh the client, the page should be populated with movies.  
 
-### Troubleshooting tips:
+### Troubleshooting tip:
 
-1. Make sure you give permission to your current IP to your MongoBD cluster.
+Make sure you give permission to your current IP to your MongoBD cluster.
+
+# Features Summary
+
+The main page features all the movies provided by our API. You can interact with the page by:
+
+## Filtering displayed movies by genre
+
+![filter movies by genre](https://images2.imgbox.com/0e/24/eNd3DBpK_o.jpg)
+
+## Sort by title (A-Z or Z-A)
+
+![sort movies by title](https://images2.imgbox.com/81/3c/OEh9qejM_o.png)
+
+## Search by title
+
+![search by title](https://images2.imgbox.com/79/29/wZv8ngnU_o.gif)
