@@ -56,9 +56,11 @@ npm install
 
 ### Connect to MongoDB
 
-This server runs based on a MongoDB cluster, you need a MongoDB account and available cluster to initialize the database.
+This server runs based on a MongoDB cluster. You need a MongoDB account and available cluster to initialize the database.
 
-Create a .env file in the *server* directory. Check out the .env.example file to see how the link to your cluster is supposed to look. Fill out the .env file with this info (can copy paste the example and change the username and password).
+Create a .env file in the *server* directory. 
+
+Check out the .env.example file to see how the link to your cluster is supposed to look. Fill out the .env file with this info (can copy paste the example and change the username and password).
 
 ### Start the server
 
