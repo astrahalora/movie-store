@@ -42,6 +42,8 @@ npm start
 
 The frontend will start after a short while and automatically open in your browser having the following root address: http://localhost:3000 
 
+You should be able to see the loading icon!
+
 ## Server side
 
 ### Install dependencies
