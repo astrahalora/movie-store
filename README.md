@@ -90,4 +90,4 @@ The main page features all the movies provided by our API. You can interact with
 
 ## Search by title
 
-![search by title](https://images2.imgbox.com/d5/4f/1Gxoj1OU_o.gif)
+![search by title](https://images2.imgbox.com/3f/cd/LtzHSWhZ_o.jpg)
