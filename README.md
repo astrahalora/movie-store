@@ -86,7 +86,7 @@ The main page features all the movies provided by our API. You can interact with
 
 ## Sort by title (A-Z or Z-A)
 
-![sort movies by title](https://images2.imgbox.com/81/3c/OEh9qejM_o.png)
+![sort movies by title](https://images2.imgbox.com/24/86/d0eZ7OOM_o.jpg)
 
 ## Search by title
 
