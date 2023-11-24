@@ -22,6 +22,26 @@ Fully responsive MERN stack project initialized with create-react-app. It featur
 
 # Setup
 
+## Client side
+
+### Install dependencies
+
+Navigate to the *client* directory (cd client) and run the following command in your terminal:
+
+```
+npm install
+```
+
+### Starting the client
+
+Run the following command in your terminal while inside the client directory:
+
+```
+npm start
+```
+
+The frontend will start after a short and automatically open in your browser having the following root address: http://localhost:3000 
+
 1. Navigate to the *client* directory and type the npm install command in your terminal
 
 2. Navigate to the *server* directory and type the npm install command in your terminal
