@@ -32,7 +32,7 @@ Navigate to the *client* directory (cd client) and run the following command in 
 npm install
 ```
 
-### Starting the client
+### Start the client
 
 Run the following command in your terminal while inside the client directory:
 
@@ -60,7 +60,7 @@ This server runs based on a MongoDB cluster, you need a MongoDB account and avai
 
 Create a .env file in the *server* directory. Check out the .env.example file to see how the link to your cluster is supposed to look. Fill out the .env file with this info (can copy paste the example and change the username and password).
 
-### Starting the server
+### Start the server
 
 Run the following command in your terminal while inside the server directory:
 
