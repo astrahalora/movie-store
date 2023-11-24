@@ -40,27 +40,34 @@ Run the following command in your terminal while inside the client directory:
 npm start
 ```
 
-The frontend will start after a short and automatically open in your browser having the following root address: http://localhost:3000 
+The frontend will start after a short while and automatically open in your browser having the following root address: http://localhost:3000 
 
-1. Navigate to the *client* directory and type the npm install command in your terminal
+## Server side
 
-2. Navigate to the *server* directory and type the npm install command in your terminal
+### Install dependencies
 
-[this server runs based on a MongoDB cluster, you need a MongoDB account and available cluster to initialize the database]
+Navigate to the *server* directory and run the following command in your terminal:
 
-3. create a .env file in the *server* directory and add in your mongoDB cluster access link. The project detabase is initiated with a name of 'movie' 
+```
+npm install
+```
 
-example: MONGO_URL=mongodb+srv://userdooser87:NWxl3xfAHdjg1TEA@cluster0.vbg3puh.mongodb.net/movie
+### Connect to MongoDB
 
-where *userdooser87* represents the username / 
-and *NWxl3xfAHdjg1TEA* represents the associated password
+This server runs based on a MongoDB cluster, you need a MongoDB account and available cluster to initialize the database.
 
-4. To start the server, use the command node server in the terminal (while inside the server directory)
+Create a .env file in the *server* directory. Check out the .env.example file to see how the link to your cluster is supposed to look. Fill out the .env file with this info (can copy paste the example and change the username and password).
 
-5. To start the client, use the command npm start in the terminal (while inside the client directory)
+### Starting the server
 
-You should now be able to view the website in your browser!
+Run the following command in your terminal while inside the server directory:
 
-Troubleshooting tips:
+```
+node server
+```
+
+Your local server should now be running at the address specified in the terminal! If you refresh the client, the page should be populated with movies.  
+
+### Troubleshooting tips:
 
 1. Make sure you give permission to your current IP to your MongoBD cluster.
