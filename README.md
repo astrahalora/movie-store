@@ -95,3 +95,15 @@ The main page displays all the movies provided by our API. You can interact with
 ## Click on Movie Poster to see details
 
 ![movie details](https://images2.imgbox.com/d6/f6/5J6YD7La_o.jpg)
+
+## Add or remove movies from Favorites or the Cart
+
+![movie favoriting or adding to cart](https://images2.imgbox.com/a4/e5/hMHv5Xik_o.jpg)
+
+## Check favorites and sort them by three criteria
+
+![check favorites and sort them](https://images2.imgbox.com/50/03/aH3hikKJ_o.jpg)
+
+## Go to Cart and place Order
+
+![cart page](https://images2.imgbox.com/23/60/3bcLYsNe_o.jpg)
